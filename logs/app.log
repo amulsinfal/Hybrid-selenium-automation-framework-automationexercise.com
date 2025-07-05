@@ -3238,3 +3238,1386 @@ Session ID: 0894e33473ec206e231323b2734c46e6
 [INFO ] 2025-07-05 11:35:46.726 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
 [INFO ] 2025-07-05 11:35:47.351 [main] listeners.ReportListeners::onFinish::44 - ExtentReport generated : C:\Software_Testing\Automation_Testing\github-projects\hybrid-selenium-automation-framework-automationexercise.com\eclipse-workspace\hybrid-selenium-automation-framework-automationexercise.com\reports\ExecutionReport.html
 [INFO ] 2025-07-05 11:35:48.496 [main] listeners.ReportListeners::onFinish::47 - Extent Report opened on the default browser.
+[INFO ] 2025-07-05 12:56:11.149 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:56:12.237 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:56:12.298 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:56:12.333 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:56:12.406 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:56:12.412 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:56:12.413 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:56:17.727 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterUserWithNewEmail' test has started **********
+[INFO ] 2025-07-05 12:56:17.729 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 1: Register User'.
+[INFO ] 2025-07-05 12:56:17.845 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:56:21.433 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:56:21.529 [main] pages.SignupLoginPage::isNewUserSignupLabelVisible::144 - New user signup label is displayed on the Signup / login page
+[INFO ] 2025-07-05 12:56:21.812 [main] pages.SignupLoginPage::getNewUserSignupLabelText::157 - New user signup text retrived is 'New User Signup!'.
+[INFO ] 2025-07-05 12:56:22.162 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe03' entered in the signup name text box.
+[INFO ] 2025-07-05 12:56:22.406 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe03@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 12:56:27.066 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 12:56:27.369 [main] pages.SignupPage::isEnterAccountInformationLabelVisible::339 - Account information header is displayed on the Signup page
+[INFO ] 2025-07-05 12:56:27.513 [main] pages.SignupPage::getEnterAccountInformationLabelText::352 - Account information header text retrived is 'ENTER ACCOUNT INFORMATION'.
+[INFO ] 2025-07-05 12:56:28.112 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 12:56:28.531 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 12:56:28.800 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 12:56:29.232 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 12:56:29.582 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 12:56:29.769 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 12:56:29.985 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 12:56:30.250 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 12:56:30.480 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 12:56:30.752 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 12:56:31.037 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 12:56:31.288 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 12:56:31.511 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 12:56:31.670 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 12:56:31.865 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 12:56:32.047 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 12:56:32.268 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 12:56:35.049 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 12:56:35.050 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 12:56:35.088 [main] pages.AccountCreatedPage::isAccountCreatedLabelVisible::26 - Account created page header is displayed on the Account created page
+[INFO ] 2025-07-05 12:56:35.264 [main] pages.AccountCreatedPage::getAccountCreatedLabelText::39 - Account created header text retrived is 'ACCOUNT CREATED!'.
+[INFO ] 2025-07-05 12:56:38.352 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 12:56:38.353 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 12:56:38.621 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 12:56:38.734 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe03'.
+[INFO ] 2025-07-05 12:56:39.913 [main] pages.NavigationBar::clickDeleteAccountLink::47 - Clicked on Delete Account Link.
+[INFO ] 2025-07-05 12:56:39.916 [main] pages.NavigationBar::clickDeleteAccountLink::49 - Navigating to Account deleted page.
+[INFO ] 2025-07-05 12:56:39.945 [main] pages.AccountDeletedPage::isAccountDeletedLabelVisible::26 - Account deleted label is displayed on the Account deleted page
+[INFO ] 2025-07-05 12:56:40.008 [main] pages.AccountDeletedPage::getAccountDeletedLabelText::39 - Account deleted label text retrived is 'ACCOUNT DELETED!'.
+[INFO ] 2025-07-05 12:56:41.732 [main] pages.AccountDeletedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 12:56:41.734 [main] pages.AccountDeletedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 12:56:41.771 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:56:41.788 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRegisterUserWithNewEmail' test has passed **********
+[INFO ] 2025-07-05 12:56:42.114 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:56:43.903 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:56:44.013 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:56:44.025 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:56:44.036 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:56:44.049 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:56:44.049 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:56:44.050 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:56:45.226 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterUserWithExistingEmail' test has started **********
+[INFO ] 2025-07-05 12:56:45.226 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 5: Register User with existing email.'.
+[INFO ] 2025-07-05 12:56:52.333 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:56:54.210 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:56:54.239 [main] pages.SignupLoginPage::isNewUserSignupLabelVisible::144 - New user signup label is displayed on the Signup / login page
+[INFO ] 2025-07-05 12:56:54.280 [main] pages.SignupLoginPage::getNewUserSignupLabelText::157 - New user signup text retrived is 'New User Signup!'.
+[INFO ] 2025-07-05 12:56:54.568 [main] pages.SignupLoginPage::enterSignupName::171 - 'Johndoe01' entered in the signup name text box.
+[INFO ] 2025-07-05 12:56:54.707 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe01@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 12:56:57.134 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 12:56:57.181 [main] pages.SignupLoginPage::isSignupErrorVisible::212 - Signup error label is displayed on the Signup / login page
+[INFO ] 2025-07-05 12:56:57.231 [main] pages.SignupLoginPage::getSignupErrorText::225 - Signup error text retrived is 'Email Address already exist!'.
+[INFO ] 2025-07-05 12:56:57.361 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRegisterUserWithExistingEmail' test has passed **********
+[INFO ] 2025-07-05 12:56:57.785 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:56:59.422 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:56:59.514 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:56:59.521 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:56:59.529 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:56:59.544 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:56:59.545 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:56:59.546 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:57:07.810 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 12:57:07.817 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 2: Login User with correct email and password'.
+[INFO ] 2025-07-05 12:57:07.852 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:57:09.598 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:57:09.631 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 12:57:09.681 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 12:57:10.938 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:57:11.167 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe04@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 12:57:11.365 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 12:57:17.121 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 12:57:17.176 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 12:57:17.271 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe04'.
+[INFO ] 2025-07-05 12:57:17.327 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 12:57:17.800 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:57:19.712 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:57:19.805 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:57:19.821 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:57:19.825 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:57:19.836 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:57:19.838 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:57:19.838 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:57:27.325 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 12:57:27.325 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 3: Login User with incorrect email and password'.
+[INFO ] 2025-07-05 12:57:27.414 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:57:29.671 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:57:29.710 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 12:57:29.786 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 12:57:30.958 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:57:31.350 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoexx@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 12:57:31.461 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 12:57:32.480 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 12:57:32.511 [main] pages.SignupLoginPage::isLoginErrorVisible::105 - Login error label is displayed on the Signup / login page
+[INFO ] 2025-07-05 12:57:32.598 [main] pages.SignupLoginPage::getLoginErrorText::118 - Login error text retrived is 'Your email or password is incorrect!'.
+[INFO ] 2025-07-05 12:57:32.621 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 12:57:32.981 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:57:34.922 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:57:34.988 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:57:35.000 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:57:35.008 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:57:35.023 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:57:35.023 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:57:35.024 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:57:39.673 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToLogoutUser' test has started **********
+[INFO ] 2025-07-05 12:57:39.673 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 4: Logout User'.
+[INFO ] 2025-07-05 12:57:39.723 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:57:40.905 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:57:40.944 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 12:57:40.988 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 12:57:42.064 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:57:42.354 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe02@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 12:57:42.455 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 12:57:42.557 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 12:57:45.043 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 12:57:45.083 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe02'.
+[INFO ] 2025-07-05 12:57:46.389 [main] pages.NavigationBar::clickLogoutLink::108 - Clicked on Logout Link.
+[INFO ] 2025-07-05 12:57:46.391 [main] pages.NavigationBar::clickLogoutLink::110 - Navigating to Signup / Login page.
+[INFO ] 2025-07-05 12:57:46.422 [main] pages.SignupLoginPage::isSignupLoginPageVisible::131 - Signup / Login page is displayed.
+[INFO ] 2025-07-05 12:57:46.431 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToLogoutUser' test has passed **********
+[INFO ] 2025-07-05 12:57:46.761 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:57:48.790 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:57:48.867 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:57:48.880 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:57:48.887 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:57:48.904 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:57:48.904 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:57:48.905 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:57:51.807 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyAllProductsAndProductDetailsPage' test has started **********
+[INFO ] 2025-07-05 12:57:51.808 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 8: Verify All Products and product detail page'.
+[INFO ] 2025-07-05 12:57:51.845 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:57:53.173 [main] pages.NavigationBar::clickProductsLink::140 - Clicked on Products Link.
+[INFO ] 2025-07-05 12:57:53.309 [main] pages.ProductsPage::isProductsPageVisible::36 - Products page is visible.
+[INFO ] 2025-07-05 12:57:53.350 [main] pages.ProductsPage::isProductListVisible::50 - Products list are visible.
+[INFO ] 2025-07-05 12:57:53.436 [main] pages.ProductsPage::clickViewProduct::175 - Scrolling to product with index 1
+[INFO ] 2025-07-05 12:57:54.122 [main] pages.ProductsPage::clickViewProduct::182 - Hovering over the product with index 1
+[INFO ] 2025-07-05 12:57:55.991 [main] pages.ProductsPage::clickViewProduct::188 - Clicking on the view product link of product with index 1
+[INFO ] 2025-07-05 12:57:56.031 [main] pages.ProductDetailsPage::isProductDetailsPageVisible::36 - Product Details page is visible.
+[INFO ] 2025-07-05 12:57:56.143 [main] pages.ProductDetailsPage::getProductName::95 - Product Name retrived is 'Blue Top'.
+[INFO ] 2025-07-05 12:57:56.306 [main] pages.ProductDetailsPage::getProductCategory::108 - Product category retrived is 'Women > Tops'.
+[INFO ] 2025-07-05 12:57:56.369 [main] pages.ProductDetailsPage::getProductPrice::121 - Product Price retrived is '500'.
+[INFO ] 2025-07-05 12:57:56.429 [main] pages.ProductDetailsPage::getProductAvailability::134 - Product Availability retrived is 'In Stock'.
+[INFO ] 2025-07-05 12:57:56.503 [main] pages.ProductDetailsPage::getProductCondition::147 - Product Condition retrived is 'New'.
+[INFO ] 2025-07-05 12:57:56.588 [main] pages.ProductDetailsPage::getProductBrand::160 - Product Brand retrived is 'Polo'.
+[INFO ] 2025-07-05 12:57:56.609 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyAllProductsAndProductDetailsPage' test has passed **********
+[INFO ] 2025-07-05 12:57:56.965 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:57:58.702 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:57:58.813 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:57:58.818 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:57:58.824 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:57:58.839 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:57:58.840 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:57:58.840 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:58:01.976 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyProductsRelatedToSearchAreVisible' test has started **********
+[INFO ] 2025-07-05 12:58:01.977 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 9: Search Product'.
+[INFO ] 2025-07-05 12:58:02.020 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:58:04.196 [main] pages.NavigationBar::clickProductsLink::140 - Clicked on Products Link.
+[INFO ] 2025-07-05 12:58:04.228 [main] pages.ProductsPage::isProductsPageVisible::36 - Products page is visible.
+[INFO ] 2025-07-05 12:58:04.394 [main] pages.ProductsPage::enterSearchText::69 - 'Men' entered in the search text box.
+[INFO ] 2025-07-05 12:58:06.192 [main] pages.ProductsPage::clickSearch::83 - Clicked on the Search button.
+[ERROR] 2025-07-05 12:58:06.259 [main] pages.ProductsPage::isProductPresent::151 - Products found in the list : [Men Tshirt, Madame Top For Women, Lace Top For Women, GRAPHIC DESIGN MEN T SHIRT - BLUE]
+[INFO ] 2025-07-05 12:58:06.259 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyProductsRelatedToSearchAreVisible' test has passed **********
+[INFO ] 2025-07-05 12:58:06.586 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:58:08.452 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:58:08.532 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:58:08.556 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:58:08.560 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:58:08.579 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:58:08.581 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:58:08.581 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:58:11.544 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToVerifyProductQuantityInCart' test has started **********
+[INFO ] 2025-07-05 12:58:11.544 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test to verify quantity of the product in the cart.'.
+[INFO ] 2025-07-05 12:58:11.591 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:58:11.629 [main] pages.HomePage::clickViewProduct::76 - Scrolling to products : Blue Top
+[INFO ] 2025-07-05 12:58:11.866 [main] pages.HomePage::clickViewProduct::83 - Hovering over the product : Blue Top
+[INFO ] 2025-07-05 12:58:14.872 [main] pages.HomePage::clickViewProduct::88 - Clicking on the view product link of product : Blue Top
+[INFO ] 2025-07-05 12:58:14.904 [main] pages.ProductDetailsPage::isProductDetailsPageVisible::36 - Product Details page is visible.
+[INFO ] 2025-07-05 12:58:15.112 [main] pages.ProductDetailsPage::selectQuantity::50 - Quantity text box cleared.
+[INFO ] 2025-07-05 12:58:15.206 [main] pages.ProductDetailsPage::selectQuantity::53 - '4' entered in the quantity text box.
+[INFO ] 2025-07-05 12:58:15.409 [main] pages.ProductDetailsPage::clickAddToCart::68 - Clicked on the Add to Cart button.
+[INFO ] 2025-07-05 12:58:17.416 [main] pages.ProductDetailsPage::clickViewCartLink::82 - Clicked on the View Cart button.
+[INFO ] 2025-07-05 12:58:17.492 [main] pages.CartPage::getProductQuantity::73 - Quantity of 'Blue Top' is '4'.
+[INFO ] 2025-07-05 12:58:17.565 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToVerifyProductQuantityInCart' test has passed **********
+[INFO ] 2025-07-05 12:58:18.043 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:58:19.755 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:58:19.859 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:58:19.875 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:58:19.881 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:58:19.965 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:58:19.965 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:58:19.966 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:58:21.046 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRemoveProductsFromCart' test has started **********
+[INFO ] 2025-07-05 12:58:21.046 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 17: Remove Products From Cart.'.
+[INFO ] 2025-07-05 12:58:22.956 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:58:24.576 [main] pages.NavigationBar::clickProductsLink::140 - Clicked on Products Link.
+[INFO ] 2025-07-05 12:58:25.071 [main] pages.ProductsPage::addToCart::108 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 12:58:25.305 [main] pages.ProductsPage::addToCart::114 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 12:58:25.691 [main] pages.ProductsPage::addToCart::117 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 12:58:25.721 [main] pages.ProductsPage::addToCart::120 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 12:58:26.020 [main] pages.ProductsPage::addToCart::108 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 12:58:26.188 [main] pages.ProductsPage::addToCart::114 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 12:58:26.539 [main] pages.ProductsPage::addToCart::117 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 12:58:26.552 [main] pages.ProductsPage::addToCart::120 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 12:58:27.478 [main] pages.ProductsPage::clickCartLink::161 - Clicked on the Cart link.
+[INFO ] 2025-07-05 12:58:27.505 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 12:58:27.691 [main] pages.CartPage::clickXButton::96 - Clicked on the 'X' button on the cart for product : 'Blue Top'.
+[INFO ] 2025-07-05 12:58:27.691 [main] pages.CartPage::clickXButton::97 - 'Blue Top' removed from the cart.
+[INFO ] 2025-07-05 12:58:27.875 [main] pages.CartPage::clickXButton::96 - Clicked on the 'X' button on the cart for product : 'Men Tshirt'.
+[INFO ] 2025-07-05 12:58:27.876 [main] pages.CartPage::clickXButton::97 - 'Men Tshirt' removed from the cart.
+[INFO ] 2025-07-05 12:58:27.876 [main] pages.CartPage::clickXButton::108 - Products removed from the list : [Blue Top, Men Tshirt]
+[INFO ] 2025-07-05 12:58:38.482 [main] pages.CartPage::isCartEmpty::118 - Cart is empty.
+[INFO ] 2025-07-05 12:58:38.483 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRemoveProductsFromCart' test has passed **********
+[INFO ] 2025-07-05 12:58:38.851 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:58:40.947 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:58:41.311 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:58:41.318 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:58:41.321 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:58:41.335 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:58:41.337 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:58:41.337 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:58:44.396 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterWhileCheckout' test has started **********
+[INFO ] 2025-07-05 12:58:44.396 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 14: Place Order: Register while Checkout.'.
+[INFO ] 2025-07-05 12:58:44.439 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:58:44.762 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 12:58:54.986 [main] listeners.ReportListeners::onTestSkipped::114 - ********** Execution of 'testToRegisterWhileCheckout' test has skipped **********
+[INFO ] 2025-07-05 12:58:54.990 [main] listeners.ReportListeners::onTestSkipped::115 - Exception occured : org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=138.0.3351.65)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ba5c2836e65805ebdaf252cf0df3452, clickElement {id=f.D339B089E97C283960D7EE80FF4B102D.d.A7370914F773A67A03E4A339B67AB1E6.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64135}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\Amul\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64135/devtoo..., se:cdpVersion: 138.0.3351.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (1ba5c2836e65805ebdaf252cf0df3452)] -> xpath: //div[@class='productinfo text-center']/p[text()='Blue Top']/parent::div/following-sibling::div/div/p[text()='Blue Top']/parent::div/a[@class='btn btn-default add-to-cart']]
+Session ID: 1ba5c2836e65805ebdaf252cf0df3452
+[INFO ] 2025-07-05 12:58:55.558 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:58:57.663 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:58:57.793 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:58:57.809 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:58:57.812 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:58:57.894 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:58:57.895 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:58:57.896 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:59:02.663 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterWhileCheckout' test has started **********
+[INFO ] 2025-07-05 12:59:02.669 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 14: Place Order: Register while Checkout.'.
+[INFO ] 2025-07-05 12:59:02.775 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:59:03.826 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 12:59:04.270 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 12:59:04.721 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 12:59:04.748 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 12:59:05.161 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 12:59:05.707 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 12:59:06.176 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 12:59:06.203 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 12:59:07.531 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 12:59:07.532 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 12:59:07.742 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 12:59:08.796 [main] pages.CartPage::clickRegisterLoginLink::152 - Clicked on Register / Login link.
+[INFO ] 2025-07-05 12:59:08.993 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe05' entered in the signup name text box.
+[INFO ] 2025-07-05 12:59:09.414 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe05@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 12:59:10.046 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 12:59:11.386 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 12:59:11.535 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 12:59:11.838 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 12:59:12.002 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 12:59:12.188 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 12:59:12.331 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 12:59:12.465 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 12:59:12.606 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 12:59:12.763 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 12:59:13.006 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 12:59:13.262 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 12:59:13.456 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 12:59:13.597 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 12:59:13.726 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 12:59:13.871 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 12:59:14.027 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 12:59:14.198 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 12:59:14.414 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 12:59:14.415 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 12:59:16.460 [main] pages.AccountCreatedPage::isAccountCreatedLabelVisible::26 - Account created page header is displayed on the Account created page
+[INFO ] 2025-07-05 12:59:16.509 [main] pages.AccountCreatedPage::getAccountCreatedLabelText::39 - Account created header text retrived is 'ACCOUNT CREATED!'.
+[INFO ] 2025-07-05 12:59:18.548 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 12:59:18.548 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 12:59:18.580 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 12:59:18.622 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe05'.
+[INFO ] 2025-07-05 12:59:19.674 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 12:59:19.675 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 12:59:19.703 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 12:59:21.900 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 12:59:22.093 [main] pages.CheckoutPage::getCustomerName::26 - Customer name text retrived is 'Mr. John Doe'.
+[INFO ] 2025-07-05 12:59:22.171 [main] pages.CheckoutPage::getCustomerCompany::39 - Customer company name text retrived is 'The Lawrence Company'.
+[INFO ] 2025-07-05 12:59:22.257 [main] pages.CheckoutPage::getCustomerAddress1::52 - Customer address1 text retrived is '1379, Spring Hill Rd'.
+[INFO ] 2025-07-05 12:59:22.325 [main] pages.CheckoutPage::getCustomerAddress2::65 - Customer address2 text retrived is 'Farend avenue'.
+[INFO ] 2025-07-05 12:59:22.387 [main] pages.CheckoutPage::getCustomerCityStateZip::78 - Customer City State Zipcode text retrived is 'Shreveport AR 50576'.
+[INFO ] 2025-07-05 12:59:22.444 [main] pages.CheckoutPage::getCustomerCountry::91 - Customer country text retrived is 'United States'.
+[INFO ] 2025-07-05 12:59:22.505 [main] pages.CheckoutPage::getCustomerMobile::104 - Customer mobile number text retrived is '9999999999'.
+[INFO ] 2025-07-05 12:59:22.564 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 12:59:22.630 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Blue Top' is '1'.
+[INFO ] 2025-07-05 12:59:22.685 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 12:59:22.738 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 12:59:22.885 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Men Tshirt' is '1'.
+[INFO ] 2025-07-05 12:59:22.948 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 12:59:23.279 [main] pages.CheckoutPage::enterComment::118 - 'This is the sample comment on the checkoutpage.' entered in the comment text box.
+[INFO ] 2025-07-05 12:59:24.436 [main] pages.CheckoutPage::clickPlaceOrder::132 - Clicked on Place Order button.
+[INFO ] 2025-07-05 12:59:24.547 [main] pages.HomePage::enterNameOnCard::33 - 'John Doe' entered in the Name on card text box.
+[INFO ] 2025-07-05 12:59:24.812 [main] pages.HomePage::enterCardNumber::47 - '6452789545625468' entered in the Card number text box.
+[INFO ] 2025-07-05 12:59:24.917 [main] pages.HomePage::enterCvc::61 - '311' entered in the cvc text box.
+[INFO ] 2025-07-05 12:59:25.048 [main] pages.HomePage::enterExpiryMonth::75 - '05' entered in the Expiry Month text box.
+[INFO ] 2025-07-05 12:59:25.178 [main] pages.HomePage::enterExpiryYear::89 - '2026' entered in the Expiry Year text box.
+[INFO ] 2025-07-05 12:59:27.501 [main] pages.HomePage::clickPayAndConfirmOrder::103 - Clicked on the Pay And Confirm Order button.
+[INFO ] 2025-07-05 12:59:27.502 [main] pages.HomePage::clickPayAndConfirmOrder::104 - Navigating to Home page.
+[INFO ] 2025-07-05 12:59:27.530 [main] pages.PaymentDonePage::isConfirmedMessageVisible::25 - Order confirmed message is displayed on the Payment done page
+[INFO ] 2025-07-05 12:59:28.373 [main] pages.PaymentDonePage::getConfirmedMessageText::38 - Order confirmed message text retrived is 'Congratulations! Your order has been confirmed!'.
+[INFO ] 2025-07-05 12:59:31.462 [main] pages.NavigationBar::clickDeleteAccountLink::47 - Clicked on Delete Account Link.
+[INFO ] 2025-07-05 12:59:31.463 [main] pages.NavigationBar::clickDeleteAccountLink::49 - Navigating to Account deleted page.
+[INFO ] 2025-07-05 12:59:36.850 [main] pages.AccountDeletedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 12:59:36.850 [main] pages.AccountDeletedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 12:59:37.006 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:59:37.029 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRegisterWhileCheckout' test has passed **********
+[INFO ] 2025-07-05 12:59:38.321 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 12:59:40.491 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 12:59:40.766 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 12:59:40.800 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 12:59:40.825 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 12:59:40.849 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 12:59:40.849 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 12:59:40.850 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 12:59:44.221 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterBeforeCheckout' test has started **********
+[INFO ] 2025-07-05 12:59:44.223 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 15: Place Order: Register before Checkout'.
+[INFO ] 2025-07-05 12:59:44.262 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 12:59:45.342 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 12:59:46.053 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe05' entered in the signup name text box.
+[INFO ] 2025-07-05 12:59:46.232 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe05@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 12:59:47.562 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 12:59:47.734 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 12:59:48.047 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 12:59:48.416 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 12:59:48.975 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 12:59:49.224 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 12:59:49.697 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 12:59:49.916 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 12:59:50.066 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 12:59:50.217 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 12:59:50.516 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 12:59:50.712 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 12:59:50.898 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 12:59:51.417 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 12:59:51.579 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 12:59:51.805 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 12:59:51.947 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 12:59:52.080 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 12:59:52.249 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 12:59:52.249 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 12:59:54.385 [main] pages.AccountCreatedPage::isAccountCreatedLabelVisible::26 - Account created page header is displayed on the Account created page
+[INFO ] 2025-07-05 12:59:54.440 [main] pages.AccountCreatedPage::getAccountCreatedLabelText::39 - Account created header text retrived is 'ACCOUNT CREATED!'.
+[INFO ] 2025-07-05 12:59:57.332 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 12:59:57.332 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 12:59:57.396 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 12:59:57.539 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe05'.
+[INFO ] 2025-07-05 12:59:57.963 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 12:59:58.198 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 12:59:58.595 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 12:59:58.610 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 12:59:58.825 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 12:59:58.995 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 12:59:59.846 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 12:59:59.875 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 13:00:01.423 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 13:00:01.425 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 13:00:01.454 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 13:00:03.313 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 13:00:03.352 [main] pages.CheckoutPage::getCustomerName::26 - Customer name text retrived is 'Mr. John Doe'.
+[INFO ] 2025-07-05 13:00:03.425 [main] pages.CheckoutPage::getCustomerCompany::39 - Customer company name text retrived is 'The Lawrence Company'.
+[INFO ] 2025-07-05 13:00:03.539 [main] pages.CheckoutPage::getCustomerAddress1::52 - Customer address1 text retrived is '1379, Spring Hill Rd'.
+[INFO ] 2025-07-05 13:00:03.597 [main] pages.CheckoutPage::getCustomerAddress2::65 - Customer address2 text retrived is 'Farend avenue'.
+[INFO ] 2025-07-05 13:00:03.664 [main] pages.CheckoutPage::getCustomerCityStateZip::78 - Customer City State Zipcode text retrived is 'Shreveport AR 50576'.
+[INFO ] 2025-07-05 13:00:03.712 [main] pages.CheckoutPage::getCustomerCountry::91 - Customer country text retrived is 'United States'.
+[INFO ] 2025-07-05 13:00:03.759 [main] pages.CheckoutPage::getCustomerMobile::104 - Customer mobile number text retrived is '9999999999'.
+[INFO ] 2025-07-05 13:00:03.806 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 13:00:03.851 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Blue Top' is '1'.
+[INFO ] 2025-07-05 13:00:03.896 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 13:00:03.949 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 13:00:03.997 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Men Tshirt' is '1'.
+[INFO ] 2025-07-05 13:00:04.055 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 13:00:04.350 [main] pages.CheckoutPage::enterComment::118 - 'This is the sample comment on the checkoutpage.' entered in the comment text box.
+[INFO ] 2025-07-05 13:00:06.178 [main] pages.CheckoutPage::clickPlaceOrder::132 - Clicked on Place Order button.
+[INFO ] 2025-07-05 13:00:07.154 [main] pages.HomePage::enterNameOnCard::33 - 'John Doe' entered in the Name on card text box.
+[INFO ] 2025-07-05 13:00:07.346 [main] pages.HomePage::enterCardNumber::47 - '6452789545625468' entered in the Card number text box.
+[INFO ] 2025-07-05 13:00:07.486 [main] pages.HomePage::enterCvc::61 - '311' entered in the cvc text box.
+[INFO ] 2025-07-05 13:00:07.634 [main] pages.HomePage::enterExpiryMonth::75 - '05' entered in the Expiry Month text box.
+[INFO ] 2025-07-05 13:00:07.882 [main] pages.HomePage::enterExpiryYear::89 - '2026' entered in the Expiry Year text box.
+[INFO ] 2025-07-05 13:00:10.495 [main] pages.HomePage::clickPayAndConfirmOrder::103 - Clicked on the Pay And Confirm Order button.
+[INFO ] 2025-07-05 13:00:10.496 [main] pages.HomePage::clickPayAndConfirmOrder::104 - Navigating to Home page.
+[INFO ] 2025-07-05 13:00:10.529 [main] pages.PaymentDonePage::isConfirmedMessageVisible::25 - Order confirmed message is displayed on the Payment done page
+[INFO ] 2025-07-05 13:00:10.563 [main] pages.PaymentDonePage::getConfirmedMessageText::38 - Order confirmed message text retrived is 'Congratulations! Your order has been confirmed!'.
+[INFO ] 2025-07-05 13:00:11.798 [main] pages.NavigationBar::clickDeleteAccountLink::47 - Clicked on Delete Account Link.
+[INFO ] 2025-07-05 13:00:11.798 [main] pages.NavigationBar::clickDeleteAccountLink::49 - Navigating to Account deleted page.
+[INFO ] 2025-07-05 13:00:13.390 [main] pages.AccountDeletedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 13:00:13.391 [main] pages.AccountDeletedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 13:00:13.418 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 13:00:13.429 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRegisterBeforeCheckout' test has passed **********
+[INFO ] 2025-07-05 13:00:13.744 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 13:00:15.495 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 13:00:15.591 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 13:00:15.606 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 13:00:15.617 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 13:00:15.634 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 13:00:15.634 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 13:00:15.635 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 13:00:20.180 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToLoginBeforeCheckout' test has started **********
+[INFO ] 2025-07-05 13:00:20.180 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 16: Place Order: Login before Checkout'.
+[INFO ] 2025-07-05 13:00:20.247 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 13:00:21.799 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 13:00:22.077 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe06' entered in the signup name text box.
+[INFO ] 2025-07-05 13:00:22.203 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe06@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 13:00:23.305 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 13:00:23.538 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 13:00:23.945 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 13:00:24.397 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 13:00:24.613 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 13:00:24.781 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 13:00:24.907 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 13:00:25.026 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 13:00:25.149 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 13:00:25.333 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 13:00:25.546 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 13:00:25.945 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 13:00:26.070 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 13:00:26.260 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 13:00:26.370 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 13:00:26.540 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 13:00:26.681 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 13:00:26.826 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 13:00:28.247 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 13:00:28.248 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 13:00:29.584 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 13:00:29.585 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 13:00:30.890 [main] pages.NavigationBar::clickLogoutLink::108 - Clicked on Logout Link.
+[INFO ] 2025-07-05 13:00:30.891 [main] pages.NavigationBar::clickLogoutLink::110 - Navigating to Signup / Login page.
+[INFO ] 2025-07-05 13:00:32.348 [main] pages.SignupLoginPage::clickHomeLink::239 - Clicked on Home Link.
+[INFO ] 2025-07-05 13:00:32.407 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 13:00:33.586 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 13:00:33.692 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe06@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 13:00:33.846 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 13:00:35.881 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 13:00:35.916 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 13:00:35.970 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe06'.
+[INFO ] 2025-07-05 13:00:37.736 [main] pages.NavigationBar::clickProductsLink::140 - Clicked on Products Link.
+[INFO ] 2025-07-05 13:00:38.150 [main] pages.ProductsPage::addToCart::108 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 13:00:38.517 [main] pages.ProductsPage::addToCart::114 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 13:00:38.765 [main] pages.ProductsPage::addToCart::117 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 13:00:38.781 [main] pages.ProductsPage::addToCart::120 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 13:00:39.017 [main] pages.ProductsPage::addToCart::108 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 13:00:39.297 [main] pages.ProductsPage::addToCart::114 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 13:00:39.670 [main] pages.ProductsPage::addToCart::117 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 13:00:39.685 [main] pages.ProductsPage::addToCart::120 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 13:00:40.806 [main] pages.ProductsPage::clickCartLink::161 - Clicked on the Cart link.
+[INFO ] 2025-07-05 13:00:40.834 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 13:00:42.796 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 13:00:42.840 [main] pages.CheckoutPage::getCustomerName::26 - Customer name text retrived is 'Mr. John Doe'.
+[INFO ] 2025-07-05 13:00:43.044 [main] pages.CheckoutPage::getCustomerCompany::39 - Customer company name text retrived is 'The Lawrence Company'.
+[INFO ] 2025-07-05 13:00:43.105 [main] pages.CheckoutPage::getCustomerAddress1::52 - Customer address1 text retrived is '1379, Spring Hill Rd'.
+[INFO ] 2025-07-05 13:00:43.166 [main] pages.CheckoutPage::getCustomerAddress2::65 - Customer address2 text retrived is 'Farend avenue'.
+[INFO ] 2025-07-05 13:00:43.220 [main] pages.CheckoutPage::getCustomerCityStateZip::78 - Customer City State Zipcode text retrived is 'Shreveport AR 50576'.
+[INFO ] 2025-07-05 13:00:43.274 [main] pages.CheckoutPage::getCustomerCountry::91 - Customer country text retrived is 'United States'.
+[INFO ] 2025-07-05 13:00:43.324 [main] pages.CheckoutPage::getCustomerMobile::104 - Customer mobile number text retrived is '9999999999'.
+[INFO ] 2025-07-05 13:00:43.366 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 13:00:43.422 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Blue Top' is '1'.
+[INFO ] 2025-07-05 13:00:43.467 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 13:00:43.515 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 13:00:43.560 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Men Tshirt' is '1'.
+[INFO ] 2025-07-05 13:00:43.606 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 13:00:43.801 [main] pages.CheckoutPage::enterComment::118 - 'This is the sample comment on the checkoutpage.' entered in the comment text box.
+[INFO ] 2025-07-05 13:00:45.088 [main] pages.CheckoutPage::clickPlaceOrder::132 - Clicked on Place Order button.
+[INFO ] 2025-07-05 13:00:45.287 [main] pages.HomePage::enterNameOnCard::33 - 'John Doe' entered in the Name on card text box.
+[INFO ] 2025-07-05 13:00:45.645 [main] pages.HomePage::enterCardNumber::47 - '6452789545625468' entered in the Card number text box.
+[INFO ] 2025-07-05 13:00:46.305 [main] pages.HomePage::enterCvc::61 - '311' entered in the cvc text box.
+[INFO ] 2025-07-05 13:00:46.668 [main] pages.HomePage::enterExpiryMonth::75 - '05' entered in the Expiry Month text box.
+[INFO ] 2025-07-05 13:00:46.851 [main] pages.HomePage::enterExpiryYear::89 - '2026' entered in the Expiry Year text box.
+[INFO ] 2025-07-05 13:00:50.054 [main] pages.HomePage::clickPayAndConfirmOrder::103 - Clicked on the Pay And Confirm Order button.
+[INFO ] 2025-07-05 13:00:50.055 [main] pages.HomePage::clickPayAndConfirmOrder::104 - Navigating to Home page.
+[INFO ] 2025-07-05 13:00:50.095 [main] pages.PaymentDonePage::isConfirmedMessageVisible::25 - Order confirmed message is displayed on the Payment done page
+[INFO ] 2025-07-05 13:00:50.134 [main] pages.PaymentDonePage::getConfirmedMessageText::38 - Order confirmed message text retrived is 'Congratulations! Your order has been confirmed!'.
+[INFO ] 2025-07-05 13:00:51.493 [main] pages.NavigationBar::clickDeleteAccountLink::47 - Clicked on Delete Account Link.
+[INFO ] 2025-07-05 13:00:51.494 [main] pages.NavigationBar::clickDeleteAccountLink::49 - Navigating to Account deleted page.
+[INFO ] 2025-07-05 13:00:54.118 [main] pages.AccountDeletedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 13:00:54.118 [main] pages.AccountDeletedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 13:00:54.194 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 13:00:54.289 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToLoginBeforeCheckout' test has passed **********
+[INFO ] 2025-07-05 13:00:54.796 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 13:00:56.733 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 13:00:56.879 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 13:00:56.890 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 13:00:56.897 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 13:00:56.924 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 13:00:56.924 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 13:00:56.925 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 13:01:01.096 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifySubscriptionInCartPage' test has started **********
+[INFO ] 2025-07-05 13:01:01.100 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 11: Verify Subscription in Cart page'.
+[INFO ] 2025-07-05 13:01:01.133 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 13:01:02.415 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 13:01:02.415 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 13:01:02.480 [main] pages.CartPage::scrollToFooter::58 - Scrolling to footer section.
+[INFO ] 2025-07-05 13:01:02.783 [main] pages.ApplicationFooter::isSubscriptionLabelDisplayed::28 - 'Subscription' label is displayed on home page.
+[INFO ] 2025-07-05 13:01:03.136 [main] pages.ApplicationFooter::getSubscriptionText::42 - Subscription label text retrived is 'SUBSCRIPTION'.
+[INFO ] 2025-07-05 13:01:03.395 [main] pages.ApplicationFooter::enterSubscriptionEmail::71 - 'johndoe01@email.com' entered in the subscription email text box.
+[INFO ] 2025-07-05 13:01:03.567 [main] pages.ApplicationFooter::clickArrowButton::57 - Clicked on Subscribe button.
+[INFO ] 2025-07-05 13:01:03.612 [main] pages.ApplicationFooter::isSubscriptionSuccessLabelDisplayed::86 - Subscription success label is displayed on home page.
+[INFO ] 2025-07-05 13:01:03.670 [main] pages.ApplicationFooter::getSubscriptionSuccessText::100 - Subscription success message text retrived is 'You have been successfully subscribed!'.
+[INFO ] 2025-07-05 13:01:03.703 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifySubscriptionInCartPage' test has passed **********
+[INFO ] 2025-07-05 13:01:04.465 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 13:01:06.036 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 13:01:06.099 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 13:01:06.103 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 13:01:06.106 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 13:01:06.128 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 13:01:06.128 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 13:01:06.130 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 13:01:07.320 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifySubscriptionInHomePage' test has started **********
+[INFO ] 2025-07-05 13:01:07.320 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 10: Verify Subscription in home page'.
+[INFO ] 2025-07-05 13:01:11.275 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 13:01:11.358 [main] pages.HomePage::scrollToFooter::143 - Scrolling to footer section.
+[INFO ] 2025-07-05 13:01:11.546 [main] pages.ApplicationFooter::isSubscriptionLabelDisplayed::28 - 'Subscription' label is displayed on home page.
+[INFO ] 2025-07-05 13:01:11.781 [main] pages.ApplicationFooter::getSubscriptionText::42 - Subscription label text retrived is 'SUBSCRIPTION'.
+[INFO ] 2025-07-05 13:01:12.511 [main] pages.ApplicationFooter::enterSubscriptionEmail::71 - 'johndoe01@email.com' entered in the subscription email text box.
+[INFO ] 2025-07-05 13:01:12.655 [main] pages.ApplicationFooter::clickArrowButton::57 - Clicked on Subscribe button.
+[INFO ] 2025-07-05 13:01:12.693 [main] pages.ApplicationFooter::isSubscriptionSuccessLabelDisplayed::86 - Subscription success label is displayed on home page.
+[INFO ] 2025-07-05 13:01:12.744 [main] pages.ApplicationFooter::getSubscriptionSuccessText::100 - Subscription success message text retrived is 'You have been successfully subscribed!'.
+[INFO ] 2025-07-05 13:01:12.772 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifySubscriptionInHomePage' test has passed **********
+[INFO ] 2025-07-05 13:01:13.254 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 13:01:14.773 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 13:01:14.845 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 13:01:14.848 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 13:01:14.852 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 13:01:14.875 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 13:01:14.875 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 13:01:14.876 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 13:01:19.320 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToVerifyTestCasesPage' test has started **********
+[INFO ] 2025-07-05 13:01:19.321 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 7: Verify Test Cases Page'.
+[INFO ] 2025-07-05 13:01:20.776 [main] pages.NavigationBar::clickTestCasesLink::64 - Clicked on Test cases Link.
+[INFO ] 2025-07-05 13:01:20.831 [main] pages.TestCasesPage::isOnTestCasesPage::25 - Test cases is visible.
+[INFO ] 2025-07-05 13:01:20.844 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToVerifyTestCasesPage' test has passed **********
+[INFO ] 2025-07-05 13:01:21.115 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 13:01:22.907 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 13:01:22.971 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 13:01:22.972 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 13:01:22.976 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 13:01:22.986 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 13:01:22.986 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 13:01:22.986 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 13:01:24.099 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testContactUsForm' test has started **********
+[INFO ] 2025-07-05 13:01:24.099 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 6: Contact Us Form'.
+[INFO ] 2025-07-05 13:01:26.213 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 13:01:28.015 [main] pages.NavigationBar::clickContactUsLink::124 - Clicked on Contact us Link.
+[INFO ] 2025-07-05 13:01:28.015 [main] pages.NavigationBar::clickContactUsLink::126 - Navigating to Contact us page.
+[INFO ] 2025-07-05 13:01:28.050 [main] pages.ContactUsPage::isGetInTouchLabelVisible::118 - Contact us form header is displayed on the Contact us page
+[INFO ] 2025-07-05 13:01:28.087 [main] pages.ContactUsPage::getGetInTouchText::131 - Contact us form header text retrived is 'GET IN TOUCH'.
+[INFO ] 2025-07-05 13:01:28.446 [main] pages.ContactUsPage::enterName::35 - 'john Doe' entered in the name text box.
+[INFO ] 2025-07-05 13:01:28.598 [main] pages.ContactUsPage::enterEmail::49 - 'jackdoe@email.com' entered in the email text box.
+[INFO ] 2025-07-05 13:01:28.881 [main] pages.ContactUsPage::enterSubject::63 - 'This is the sample Subject.' entered in the subject text box.
+[INFO ] 2025-07-05 13:01:29.087 [main] pages.ContactUsPage::enterMessage::77 - 'This is the sample message body' entered in the Message text box.
+[INFO ] 2025-07-05 13:01:29.184 [main] pages.ContactUsPage::enterFilePath::91 - 'C:\Software_Testing\Automation_Testing\github-projects\hybrid-selenium-automation-framework-automationexercise.com\eclipse-workspace\hybrid-selenium-automation-framework-automationexercise.com\src\test\resources\testData\Sample.txt' entered in the choose file text box.
+[INFO ] 2025-07-05 13:01:29.366 [main] pages.ContactUsPage::clickSubmit::105 - Clicked on the Submit button.
+[INFO ] 2025-07-05 13:01:29.367 [main] base.BasePage::getAlert::40 - Switching to Alert popup.
+[INFO ] 2025-07-05 13:01:29.379 [main] base.BasePage::acceptAlert::53 - Clicked on 'Ok' on Alert popup.
+[INFO ] 2025-07-05 13:01:29.436 [main] pages.ContactUsPage::isSuccessMessageVisible::163 - Success message is displayed on the Contact us page
+[INFO ] 2025-07-05 13:01:29.510 [main] pages.ContactUsPage::getSuccessMessageText::176 - Success message text on Contact us page retrived is 'Success! Your details have been submitted successfully.'.
+[INFO ] 2025-07-05 13:01:31.738 [main] pages.ContactUsPage::clickHome::150 - Clicked on the Home button.
+[INFO ] 2025-07-05 13:01:31.767 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 13:01:31.777 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testContactUsForm' test has passed **********
+[INFO ] 2025-07-05 13:01:32.043 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 13:01:32.878 [main] listeners.ReportListeners::onFinish::44 - ExtentReport generated : C:\Software_Testing\Automation_Testing\github-projects\hybrid-selenium-automation-framework-automationexercise.com\eclipse-workspace\hybrid-selenium-automation-framework-automationexercise.com\reports\ExecutionReport.html
+[INFO ] 2025-07-05 13:01:34.043 [main] listeners.ReportListeners::onFinish::47 - Extent Report opened on the default browser.
+[INFO ] 2025-07-05 17:56:48.706 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 17:56:48.830 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 17:56:48.853 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 17:56:48.865 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 17:56:48.884 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 17:56:48.885 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 17:56:48.886 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 17:56:51.930 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 17:56:51.932 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 2: Login User with correct email and password'.
+[INFO ] 2025-07-05 17:56:51.994 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 17:56:53.174 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:56:53.216 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:56:53.512 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 17:56:54.472 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:56:54.748 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe04@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 17:56:54.851 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 17:56:54.987 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 17:56:56.572 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 17:56:56.676 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe04'.
+[INFO ] 2025-07-05 17:56:56.702 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 17:56:57.075 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 17:56:58.376 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 17:56:58.496 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 17:56:58.510 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 17:56:58.515 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 17:56:58.527 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 17:56:58.527 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 17:56:58.528 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 17:57:01.531 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 17:57:01.538 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 3: Login User with incorrect email and password'.
+[INFO ] 2025-07-05 17:57:01.580 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 17:57:03.362 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:57:03.403 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:57:03.639 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 17:57:04.704 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:57:05.013 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoexx@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 17:57:05.150 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 17:57:06.243 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 17:57:06.310 [main] pages.SignupLoginPage::isLoginErrorVisible::105 - Login error label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:57:06.712 [main] pages.SignupLoginPage::getLoginErrorText::118 - Login error text retrived is 'Your email or password is incorrect!'.
+[INFO ] 2025-07-05 17:57:06.745 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 17:57:06.988 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 17:57:08.028 [main] listeners.ReportListeners::onFinish::44 - ExtentReport generated : C:\Software_Testing\Automation_Testing\github-projects\hybrid-selenium-automation-framework-automationexercise.com\eclipse-workspace\hybrid-selenium-automation-framework-automationexercise.com\reports\ExecutionReport.html
+[INFO ] 2025-07-05 17:57:09.630 [main] listeners.ReportListeners::onFinish::47 - Extent Report opened on the default browser.
+[INFO ] 2025-07-05 17:58:08.218 [main] factory.DriverFactory::intializeDriver::40 - Firefox browser launched.
+[INFO ] 2025-07-05 17:58:08.620 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 17:58:08.646 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 17:58:08.693 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 17:58:08.722 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 17:58:08.723 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 17:58:08.724 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 17:58:13.477 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 17:58:13.478 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 2: Login User with correct email and password'.
+[INFO ] 2025-07-05 17:58:13.555 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 17:58:15.252 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:58:15.280 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:58:15.344 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 17:58:19.867 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:58:20.000 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe04@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 17:58:20.053 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 17:58:24.062 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 17:58:24.128 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 17:58:24.170 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe04'.
+[INFO ] 2025-07-05 17:58:24.228 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 17:58:25.847 [main] base.BaseTest::closeBrowser::29 - 'Firefox' browser closed successfully.
+[INFO ] 2025-07-05 17:58:30.373 [main] factory.DriverFactory::intializeDriver::40 - Firefox browser launched.
+[INFO ] 2025-07-05 17:58:30.651 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 17:58:30.659 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 17:58:30.666 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 17:58:30.673 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 17:58:30.674 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 17:58:30.676 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 17:58:35.377 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 17:58:35.377 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 3: Login User with incorrect email and password'.
+[INFO ] 2025-07-05 17:58:35.439 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 17:58:37.119 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:58:37.161 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:58:37.196 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 17:58:39.109 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:58:39.203 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoexx@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 17:58:39.270 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 17:58:40.934 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 17:58:41.094 [main] pages.SignupLoginPage::isLoginErrorVisible::105 - Login error label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:58:41.418 [main] pages.SignupLoginPage::getLoginErrorText::118 - Login error text retrived is 'Your email or password is incorrect!'.
+[INFO ] 2025-07-05 17:58:41.614 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 17:58:43.046 [main] base.BaseTest::closeBrowser::29 - 'Firefox' browser closed successfully.
+[INFO ] 2025-07-05 17:58:43.552 [main] listeners.ReportListeners::onFinish::44 - ExtentReport generated : C:\Software_Testing\Automation_Testing\github-projects\hybrid-selenium-automation-framework-automationexercise.com\eclipse-workspace\hybrid-selenium-automation-framework-automationexercise.com\reports\ExecutionReport.html
+[INFO ] 2025-07-05 17:58:44.603 [main] listeners.ReportListeners::onFinish::47 - Extent Report opened on the default browser.
+[INFO ] 2025-07-05 17:59:01.481 [main] factory.DriverFactory::intializeDriver::37 - Firefox browser will be launched in headless mode.
+[INFO ] 2025-07-05 17:59:05.370 [main] factory.DriverFactory::intializeDriver::40 - Firefox browser launched.
+[INFO ] 2025-07-05 17:59:05.382 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 17:59:05.393 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 17:59:05.418 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 17:59:05.424 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 17:59:05.425 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 17:59:05.426 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 17:59:10.201 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 17:59:10.202 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 2: Login User with correct email and password'.
+[INFO ] 2025-07-05 17:59:10.270 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 17:59:12.386 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:59:12.422 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:59:12.481 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 17:59:14.751 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:59:14.872 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe04@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 17:59:14.934 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 17:59:19.138 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 17:59:19.200 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 17:59:19.288 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe04'.
+[INFO ] 2025-07-05 17:59:19.331 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 17:59:20.562 [main] base.BaseTest::closeBrowser::29 - 'Firefoxheadless' browser closed successfully.
+[INFO ] 2025-07-05 17:59:20.568 [main] factory.DriverFactory::intializeDriver::37 - Firefox browser will be launched in headless mode.
+[INFO ] 2025-07-05 17:59:23.468 [main] factory.DriverFactory::intializeDriver::40 - Firefox browser launched.
+[INFO ] 2025-07-05 17:59:23.474 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 17:59:23.480 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 17:59:23.486 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 17:59:23.492 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 17:59:23.493 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 17:59:23.494 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 17:59:28.322 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 17:59:28.323 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 3: Login User with incorrect email and password'.
+[INFO ] 2025-07-05 17:59:28.374 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 17:59:30.059 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:59:30.089 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:59:30.137 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 17:59:31.665 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 17:59:31.740 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoexx@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 17:59:31.777 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 17:59:33.521 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 17:59:33.595 [main] pages.SignupLoginPage::isLoginErrorVisible::105 - Login error label is displayed on the Signup / login page
+[INFO ] 2025-07-05 17:59:33.643 [main] pages.SignupLoginPage::getLoginErrorText::118 - Login error text retrived is 'Your email or password is incorrect!'.
+[INFO ] 2025-07-05 17:59:33.662 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 17:59:34.848 [main] base.BaseTest::closeBrowser::29 - 'Firefoxheadless' browser closed successfully.
+[INFO ] 2025-07-05 17:59:35.305 [main] listeners.ReportListeners::onFinish::44 - ExtentReport generated : C:\Software_Testing\Automation_Testing\github-projects\hybrid-selenium-automation-framework-automationexercise.com\eclipse-workspace\hybrid-selenium-automation-framework-automationexercise.com\reports\ExecutionReport.html
+[INFO ] 2025-07-05 17:59:36.340 [main] listeners.ReportListeners::onFinish::47 - Extent Report opened on the default browser.
+[INFO ] 2025-07-05 18:01:43.536 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:01:43.617 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:01:43.628 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:01:43.642 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:01:43.654 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:01:43.654 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:01:43.656 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:01:46.558 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterUserWithNewEmail' test has started **********
+[INFO ] 2025-07-05 18:01:46.560 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 1: Register User'.
+[INFO ] 2025-07-05 18:01:46.618 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:01:48.018 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:01:48.048 [main] pages.SignupLoginPage::isNewUserSignupLabelVisible::144 - New user signup label is displayed on the Signup / login page
+[INFO ] 2025-07-05 18:01:48.098 [main] pages.SignupLoginPage::getNewUserSignupLabelText::157 - New user signup text retrived is 'New User Signup!'.
+[INFO ] 2025-07-05 18:01:48.400 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe03' entered in the signup name text box.
+[INFO ] 2025-07-05 18:01:48.546 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe03@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 18:01:49.721 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 18:01:49.753 [main] pages.SignupPage::isEnterAccountInformationLabelVisible::339 - Account information header is displayed on the Signup page
+[INFO ] 2025-07-05 18:01:49.798 [main] pages.SignupPage::getEnterAccountInformationLabelText::352 - Account information header text retrived is 'ENTER ACCOUNT INFORMATION'.
+[INFO ] 2025-07-05 18:01:50.054 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 18:01:50.171 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 18:01:50.393 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 18:01:50.535 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 18:01:50.667 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 18:01:50.770 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 18:01:50.881 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 18:01:50.981 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 18:01:51.090 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 18:01:51.272 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 18:01:51.462 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 18:01:51.638 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 18:01:51.772 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 18:01:51.882 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 18:01:51.996 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 18:01:52.100 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 18:01:52.253 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 18:01:53.887 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 18:01:53.901 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 18:01:53.933 [main] pages.AccountCreatedPage::isAccountCreatedLabelVisible::26 - Account created page header is displayed on the Account created page
+[INFO ] 2025-07-05 18:01:53.970 [main] pages.AccountCreatedPage::getAccountCreatedLabelText::39 - Account created header text retrived is 'ACCOUNT CREATED!'.
+[INFO ] 2025-07-05 18:01:56.150 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:01:56.150 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:01:56.195 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 18:01:56.231 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe03'.
+[INFO ] 2025-07-05 18:01:57.444 [main] pages.NavigationBar::clickDeleteAccountLink::47 - Clicked on Delete Account Link.
+[INFO ] 2025-07-05 18:01:57.445 [main] pages.NavigationBar::clickDeleteAccountLink::49 - Navigating to Account deleted page.
+[INFO ] 2025-07-05 18:01:57.474 [main] pages.AccountDeletedPage::isAccountDeletedLabelVisible::26 - Account deleted label is displayed on the Account deleted page
+[INFO ] 2025-07-05 18:01:57.513 [main] pages.AccountDeletedPage::getAccountDeletedLabelText::39 - Account deleted label text retrived is 'ACCOUNT DELETED!'.
+[INFO ] 2025-07-05 18:01:59.316 [main] pages.AccountDeletedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:01:59.317 [main] pages.AccountDeletedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:01:59.344 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:01:59.359 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRegisterUserWithNewEmail' test has passed **********
+[INFO ] 2025-07-05 18:01:59.650 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:02:01.005 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:02:01.085 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:02:01.102 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:02:01.113 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:02:01.127 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:02:01.127 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:02:01.128 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:02:05.135 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterUserWithExistingEmail' test has started **********
+[INFO ] 2025-07-05 18:02:05.135 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 5: Register User with existing email.'.
+[INFO ] 2025-07-05 18:02:05.210 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:02:06.399 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:02:06.438 [main] pages.SignupLoginPage::isNewUserSignupLabelVisible::144 - New user signup label is displayed on the Signup / login page
+[INFO ] 2025-07-05 18:02:06.482 [main] pages.SignupLoginPage::getNewUserSignupLabelText::157 - New user signup text retrived is 'New User Signup!'.
+[INFO ] 2025-07-05 18:02:06.852 [main] pages.SignupLoginPage::enterSignupName::171 - 'Johndoe01' entered in the signup name text box.
+[INFO ] 2025-07-05 18:02:06.998 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe01@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 18:02:07.151 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 18:02:11.137 [main] pages.SignupLoginPage::isSignupErrorVisible::212 - Signup error label is displayed on the Signup / login page
+[INFO ] 2025-07-05 18:02:11.188 [main] pages.SignupLoginPage::getSignupErrorText::225 - Signup error text retrived is 'Email Address already exist!'.
+[INFO ] 2025-07-05 18:02:11.291 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRegisterUserWithExistingEmail' test has passed **********
+[INFO ] 2025-07-05 18:02:11.781 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:02:13.480 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:02:13.559 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:02:13.564 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:02:13.570 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:02:13.590 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:02:13.591 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:02:13.592 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:02:17.233 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 18:02:17.233 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 2: Login User with correct email and password'.
+[INFO ] 2025-07-05 18:02:17.393 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:02:18.905 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:02:18.956 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 18:02:19.021 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 18:02:20.206 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:02:20.397 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe04@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 18:02:20.579 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 18:02:23.948 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 18:02:23.989 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 18:02:24.149 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe04'.
+[INFO ] 2025-07-05 18:02:24.182 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithCorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 18:02:24.850 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:02:26.951 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:02:27.087 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:02:27.092 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:02:27.098 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:02:27.107 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:02:27.108 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:02:27.109 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:02:28.174 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has started **********
+[INFO ] 2025-07-05 18:02:28.178 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 3: Login User with incorrect email and password'.
+[INFO ] 2025-07-05 18:02:29.918 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:02:31.151 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:02:31.193 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 18:02:31.462 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 18:02:33.059 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:02:33.241 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoexx@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 18:02:33.445 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 18:02:33.580 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 18:02:34.547 [main] pages.SignupLoginPage::isLoginErrorVisible::105 - Login error label is displayed on the Signup / login page
+[INFO ] 2025-07-05 18:02:34.586 [main] pages.SignupLoginPage::getLoginErrorText::118 - Login error text retrived is 'Your email or password is incorrect!'.
+[INFO ] 2025-07-05 18:02:34.690 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyLoginWithIncorrectEmailAndPassword' test has passed **********
+[INFO ] 2025-07-05 18:02:35.140 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:02:37.374 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:02:37.525 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:02:37.539 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:02:37.552 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:02:37.572 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:02:37.572 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:02:37.573 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:02:38.908 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToLogoutUser' test has started **********
+[INFO ] 2025-07-05 18:02:38.909 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 4: Logout User'.
+[INFO ] 2025-07-05 18:02:42.376 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:02:43.842 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:02:44.174 [main] pages.SignupLoginPage::isLoginToYourAccountLabelVisible::37 - Login To Your Account Label is displayed on the Signup / login page
+[INFO ] 2025-07-05 18:02:44.239 [main] pages.SignupLoginPage::getLoginToYourAccountLabelText::50 - Login To Your Account Label text retrived is 'Login to your account'.
+[INFO ] 2025-07-05 18:02:45.537 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:02:45.922 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe02@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 18:02:46.050 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 18:02:51.080 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 18:02:51.114 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 18:02:51.160 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe02'.
+[INFO ] 2025-07-05 18:02:52.572 [main] pages.NavigationBar::clickLogoutLink::108 - Clicked on Logout Link.
+[INFO ] 2025-07-05 18:02:52.572 [main] pages.NavigationBar::clickLogoutLink::110 - Navigating to Signup / Login page.
+[INFO ] 2025-07-05 18:02:52.592 [main] pages.SignupLoginPage::isSignupLoginPageVisible::131 - Signup / Login page is displayed.
+[INFO ] 2025-07-05 18:02:52.609 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToLogoutUser' test has passed **********
+[INFO ] 2025-07-05 18:02:52.883 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:02:54.493 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:02:54.595 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:02:54.602 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:02:54.606 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:02:54.620 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:02:54.621 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:02:54.621 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:02:55.814 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyAllProductsAndProductDetailsPage' test has started **********
+[INFO ] 2025-07-05 18:02:55.814 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 8: Verify All Products and product detail page'.
+[INFO ] 2025-07-05 18:02:58.417 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:03:02.137 [main] pages.NavigationBar::clickProductsLink::140 - Clicked on Products Link.
+[INFO ] 2025-07-05 18:03:02.176 [main] pages.ProductsPage::isProductsPageVisible::36 - Products page is visible.
+[INFO ] 2025-07-05 18:03:02.212 [main] pages.ProductsPage::isProductListVisible::50 - Products list are visible.
+[INFO ] 2025-07-05 18:03:02.239 [main] pages.ProductsPage::clickViewProduct::175 - Scrolling to product with index 1
+[INFO ] 2025-07-05 18:03:02.518 [main] pages.ProductsPage::clickViewProduct::182 - Hovering over the product with index 1
+[INFO ] 2025-07-05 18:03:05.005 [main] pages.ProductsPage::clickViewProduct::188 - Clicking on the view product link of product with index 1
+[INFO ] 2025-07-05 18:03:05.041 [main] pages.ProductDetailsPage::isProductDetailsPageVisible::36 - Product Details page is visible.
+[INFO ] 2025-07-05 18:03:05.194 [main] pages.ProductDetailsPage::getProductName::95 - Product Name retrived is 'Blue Top'.
+[INFO ] 2025-07-05 18:03:05.340 [main] pages.ProductDetailsPage::getProductCategory::108 - Product category retrived is 'Women > Tops'.
+[INFO ] 2025-07-05 18:03:05.513 [main] pages.ProductDetailsPage::getProductPrice::121 - Product Price retrived is '500'.
+[INFO ] 2025-07-05 18:03:05.715 [main] pages.ProductDetailsPage::getProductAvailability::134 - Product Availability retrived is 'In Stock'.
+[INFO ] 2025-07-05 18:03:05.806 [main] pages.ProductDetailsPage::getProductCondition::147 - Product Condition retrived is 'New'.
+[INFO ] 2025-07-05 18:03:05.872 [main] pages.ProductDetailsPage::getProductBrand::160 - Product Brand retrived is 'Polo'.
+[INFO ] 2025-07-05 18:03:05.893 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyAllProductsAndProductDetailsPage' test has passed **********
+[INFO ] 2025-07-05 18:03:06.166 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:03:08.075 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:03:08.192 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:03:08.197 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:03:08.201 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:03:08.214 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:03:08.215 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:03:08.215 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:03:12.980 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifyProductsRelatedToSearchAreVisible' test has started **********
+[INFO ] 2025-07-05 18:03:12.982 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 9: Search Product'.
+[INFO ] 2025-07-05 18:03:13.019 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:03:14.872 [main] pages.NavigationBar::clickProductsLink::140 - Clicked on Products Link.
+[INFO ] 2025-07-05 18:03:14.909 [main] pages.ProductsPage::isProductsPageVisible::36 - Products page is visible.
+[INFO ] 2025-07-05 18:03:15.042 [main] pages.ProductsPage::enterSearchText::69 - 'Men' entered in the search text box.
+[INFO ] 2025-07-05 18:03:16.521 [main] pages.ProductsPage::clickSearch::83 - Clicked on the Search button.
+[ERROR] 2025-07-05 18:03:16.651 [main] pages.ProductsPage::isProductPresent::151 - Products found in the list : [Men Tshirt, Madame Top For Women, Lace Top For Women, GRAPHIC DESIGN MEN T SHIRT - BLUE]
+[INFO ] 2025-07-05 18:03:16.652 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifyProductsRelatedToSearchAreVisible' test has passed **********
+[INFO ] 2025-07-05 18:03:17.118 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:03:19.342 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:03:19.539 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:03:19.542 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:03:19.553 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:03:19.743 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:03:19.743 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:03:19.744 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:03:23.304 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToVerifyProductQuantityInCart' test has started **********
+[INFO ] 2025-07-05 18:03:23.305 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test to verify quantity of the product in the cart.'.
+[INFO ] 2025-07-05 18:03:23.339 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:03:23.426 [main] pages.HomePage::clickViewProduct::76 - Scrolling to products : Blue Top
+[INFO ] 2025-07-05 18:03:23.649 [main] pages.HomePage::clickViewProduct::83 - Hovering over the product : Blue Top
+[INFO ] 2025-07-05 18:03:29.194 [main] pages.HomePage::clickViewProduct::88 - Clicking on the view product link of product : Blue Top
+[INFO ] 2025-07-05 18:03:29.389 [main] pages.ProductDetailsPage::isProductDetailsPageVisible::36 - Product Details page is visible.
+[INFO ] 2025-07-05 18:03:29.542 [main] pages.ProductDetailsPage::selectQuantity::50 - Quantity text box cleared.
+[INFO ] 2025-07-05 18:03:29.634 [main] pages.ProductDetailsPage::selectQuantity::53 - '4' entered in the quantity text box.
+[INFO ] 2025-07-05 18:03:29.890 [main] pages.ProductDetailsPage::clickAddToCart::68 - Clicked on the Add to Cart button.
+[INFO ] 2025-07-05 18:03:31.977 [main] pages.ProductDetailsPage::clickViewCartLink::82 - Clicked on the View Cart button.
+[INFO ] 2025-07-05 18:03:32.036 [main] pages.CartPage::getProductQuantity::73 - Quantity of 'Blue Top' is '4'.
+[INFO ] 2025-07-05 18:03:32.229 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToVerifyProductQuantityInCart' test has passed **********
+[INFO ] 2025-07-05 18:03:33.233 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:03:35.246 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:03:35.433 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:03:35.460 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:03:35.475 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:03:35.493 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:03:35.494 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:03:35.494 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:03:39.831 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRemoveProductsFromCart' test has started **********
+[INFO ] 2025-07-05 18:03:39.832 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 17: Remove Products From Cart.'.
+[INFO ] 2025-07-05 18:03:39.879 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:03:42.239 [main] pages.NavigationBar::clickProductsLink::140 - Clicked on Products Link.
+[INFO ] 2025-07-05 18:03:42.876 [main] pages.ProductsPage::addToCart::108 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 18:03:43.160 [main] pages.ProductsPage::addToCart::114 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 18:03:43.586 [main] pages.ProductsPage::addToCart::117 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:03:43.607 [main] pages.ProductsPage::addToCart::120 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 18:03:44.025 [main] pages.ProductsPage::addToCart::108 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:03:44.243 [main] pages.ProductsPage::addToCart::114 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:03:44.605 [main] pages.ProductsPage::addToCart::117 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:03:44.625 [main] pages.ProductsPage::addToCart::120 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 18:03:46.028 [main] pages.ProductsPage::clickCartLink::161 - Clicked on the Cart link.
+[INFO ] 2025-07-05 18:03:46.286 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 18:03:46.523 [main] pages.CartPage::clickXButton::96 - Clicked on the 'X' button on the cart for product : 'Blue Top'.
+[INFO ] 2025-07-05 18:03:46.525 [main] pages.CartPage::clickXButton::97 - 'Blue Top' removed from the cart.
+[INFO ] 2025-07-05 18:03:46.683 [main] pages.CartPage::clickXButton::96 - Clicked on the 'X' button on the cart for product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:03:46.683 [main] pages.CartPage::clickXButton::97 - 'Men Tshirt' removed from the cart.
+[INFO ] 2025-07-05 18:03:46.689 [main] pages.CartPage::clickXButton::108 - Products removed from the list : [Blue Top, Men Tshirt]
+[INFO ] 2025-07-05 18:03:57.946 [main] pages.CartPage::isCartEmpty::118 - Cart is empty.
+[INFO ] 2025-07-05 18:03:57.948 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRemoveProductsFromCart' test has passed **********
+[INFO ] 2025-07-05 18:03:58.207 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:03:59.604 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:03:59.684 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:03:59.696 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:03:59.700 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:03:59.710 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:03:59.710 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:03:59.711 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:04:02.978 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterWhileCheckout' test has started **********
+[INFO ] 2025-07-05 18:04:02.980 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 14: Place Order: Register while Checkout.'.
+[INFO ] 2025-07-05 18:04:03.019 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:04:03.343 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 18:04:03.656 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 18:04:04.035 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:04:04.047 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 18:04:04.281 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:04:04.492 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:04:04.873 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:04:04.897 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 18:04:06.224 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 18:04:06.225 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 18:04:06.325 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 18:04:07.164 [main] pages.CartPage::clickRegisterLoginLink::152 - Clicked on Register / Login link.
+[INFO ] 2025-07-05 18:04:07.359 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe05' entered in the signup name text box.
+[INFO ] 2025-07-05 18:04:07.570 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe05@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 18:04:09.932 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 18:04:10.363 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 18:04:10.515 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 18:04:10.720 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 18:04:10.893 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 18:04:11.011 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 18:04:11.113 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 18:04:11.213 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 18:04:11.307 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 18:04:11.437 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 18:04:11.606 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 18:04:11.767 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 18:04:11.912 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 18:04:12.035 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 18:04:12.130 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 18:04:12.248 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 18:04:12.416 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 18:04:12.581 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 18:04:14.043 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 18:04:14.044 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 18:04:14.075 [main] pages.AccountCreatedPage::isAccountCreatedLabelVisible::26 - Account created page header is displayed on the Account created page
+[INFO ] 2025-07-05 18:04:14.110 [main] pages.AccountCreatedPage::getAccountCreatedLabelText::39 - Account created header text retrived is 'ACCOUNT CREATED!'.
+[INFO ] 2025-07-05 18:04:17.795 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:04:17.795 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:04:17.843 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 18:04:18.115 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe05'.
+[INFO ] 2025-07-05 18:04:20.825 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 18:04:20.825 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 18:04:20.859 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 18:04:22.945 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 18:04:22.997 [main] pages.CheckoutPage::getCustomerName::26 - Customer name text retrived is 'Mr. John Doe'.
+[INFO ] 2025-07-05 18:04:23.188 [main] pages.CheckoutPage::getCustomerCompany::39 - Customer company name text retrived is 'The Lawrence Company'.
+[INFO ] 2025-07-05 18:04:23.309 [main] pages.CheckoutPage::getCustomerAddress1::52 - Customer address1 text retrived is '1379, Spring Hill Rd'.
+[INFO ] 2025-07-05 18:04:23.376 [main] pages.CheckoutPage::getCustomerAddress2::65 - Customer address2 text retrived is 'Farend avenue'.
+[INFO ] 2025-07-05 18:04:23.460 [main] pages.CheckoutPage::getCustomerCityStateZip::78 - Customer City State Zipcode text retrived is 'Shreveport AR 50576'.
+[INFO ] 2025-07-05 18:04:23.512 [main] pages.CheckoutPage::getCustomerCountry::91 - Customer country text retrived is 'United States'.
+[INFO ] 2025-07-05 18:04:23.560 [main] pages.CheckoutPage::getCustomerMobile::104 - Customer mobile number text retrived is '9999999999'.
+[INFO ] 2025-07-05 18:04:23.609 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 18:04:23.654 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Blue Top' is '1'.
+[INFO ] 2025-07-05 18:04:23.703 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 18:04:23.758 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 18:04:23.813 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Men Tshirt' is '1'.
+[INFO ] 2025-07-05 18:04:23.861 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 18:04:24.109 [main] pages.CheckoutPage::enterComment::118 - 'This is the sample comment on the checkoutpage.' entered in the comment text box.
+[INFO ] 2025-07-05 18:04:25.142 [main] pages.CheckoutPage::clickPlaceOrder::132 - Clicked on Place Order button.
+[INFO ] 2025-07-05 18:04:25.259 [main] pages.HomePage::enterNameOnCard::33 - 'John Doe' entered in the Name on card text box.
+[INFO ] 2025-07-05 18:04:25.597 [main] pages.HomePage::enterCardNumber::47 - '6452789545625468' entered in the Card number text box.
+[INFO ] 2025-07-05 18:04:25.811 [main] pages.HomePage::enterCvc::61 - '311' entered in the cvc text box.
+[INFO ] 2025-07-05 18:04:25.963 [main] pages.HomePage::enterExpiryMonth::75 - '05' entered in the Expiry Month text box.
+[INFO ] 2025-07-05 18:04:26.162 [main] pages.HomePage::enterExpiryYear::89 - '2026' entered in the Expiry Year text box.
+[INFO ] 2025-07-05 18:04:26.279 [main] pages.HomePage::clickPayAndConfirmOrder::103 - Clicked on the Pay And Confirm Order button.
+[INFO ] 2025-07-05 18:04:26.279 [main] pages.HomePage::clickPayAndConfirmOrder::104 - Navigating to Home page.
+[INFO ] 2025-07-05 18:04:28.597 [main] pages.PaymentDonePage::isConfirmedMessageVisible::25 - Order confirmed message is displayed on the Payment done page
+[INFO ] 2025-07-05 18:04:28.633 [main] pages.PaymentDonePage::getConfirmedMessageText::38 - Order confirmed message text retrived is 'Congratulations! Your order has been confirmed!'.
+[ERROR] 2025-07-05 18:06:39.825 [main] pages.NavigationBar::clickDeleteAccountLink::53 - Unable to click on Delete Account Link. Error occured : invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: MicrosoftEdge=138.0.3351.65)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a7e041d6a49eeb2804960139cbb44d38, clickElement {id=f.CB93AA40D74A8A07051AC61AF07EFB91.d.7AA8093ABAB4FA6E3BEFCB4DBFE54979.e.395}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58901}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\Amul\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58901/devtoo..., se:cdpVersion: 138.0.3351.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a7e041d6a49eeb2804960139cbb44d38)] -> xpath: //a[@href='/delete_account']]
+Session ID: a7e041d6a49eeb2804960139cbb44d38
+[INFO ] 2025-07-05 18:06:39.829 [main] listeners.ReportListeners::onTestSkipped::114 - ********** Execution of 'testToRegisterWhileCheckout' test has skipped **********
+[INFO ] 2025-07-05 18:06:39.830 [main] listeners.ReportListeners::onTestSkipped::115 - Exception occured : java.lang.NullPointerException: Cannot invoke "com.ae.pages.AccountDeletedPage.clickContinue()" because the return value of "com.ae.pages.NavigationBar.clickDeleteAccountLink()" is null
+[INFO ] 2025-07-05 18:06:39.961 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:06:41.406 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:06:41.505 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:06:41.514 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:06:41.517 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:06:41.531 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:06:41.531 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:06:41.532 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:06:44.647 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterWhileCheckout' test has started **********
+[INFO ] 2025-07-05 18:06:44.648 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 14: Place Order: Register while Checkout.'.
+[INFO ] 2025-07-05 18:06:44.686 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:06:45.189 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 18:06:45.409 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 18:06:45.827 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:06:45.849 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 18:06:46.155 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:06:46.424 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:06:46.810 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:06:46.828 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 18:06:48.058 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 18:06:48.059 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 18:06:48.222 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 18:06:49.608 [main] pages.CartPage::clickRegisterLoginLink::152 - Clicked on Register / Login link.
+[INFO ] 2025-07-05 18:06:49.779 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe05' entered in the signup name text box.
+[INFO ] 2025-07-05 18:06:49.966 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe05@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 18:06:50.065 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 18:06:51.218 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 18:06:51.393 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 18:06:51.617 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 18:06:51.729 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 18:06:51.844 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 18:06:51.949 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 18:06:52.047 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 18:06:52.150 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 18:06:52.276 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 18:06:52.446 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 18:06:52.633 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 18:06:52.772 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 18:06:52.883 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 18:06:52.981 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 18:06:53.095 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 18:06:53.223 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 18:06:53.373 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 18:06:53.517 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 18:06:53.517 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 18:06:54.921 [main] pages.AccountCreatedPage::isAccountCreatedLabelVisible::26 - Account created page header is displayed on the Account created page
+[INFO ] 2025-07-05 18:06:54.953 [main] pages.AccountCreatedPage::getAccountCreatedLabelText::39 - Account created header text retrived is 'ACCOUNT CREATED!'.
+[INFO ] 2025-07-05 18:06:57.866 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:06:57.866 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:06:57.923 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 18:06:58.073 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe05'.
+[INFO ] 2025-07-05 18:06:59.195 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 18:06:59.195 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 18:06:59.229 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 18:07:01.114 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 18:07:01.161 [main] pages.CheckoutPage::getCustomerName::26 - Customer name text retrived is 'Mr. John Doe'.
+[INFO ] 2025-07-05 18:07:01.210 [main] pages.CheckoutPage::getCustomerCompany::39 - Customer company name text retrived is 'The Lawrence Company'.
+[INFO ] 2025-07-05 18:07:01.329 [main] pages.CheckoutPage::getCustomerAddress1::52 - Customer address1 text retrived is '1379, Spring Hill Rd'.
+[INFO ] 2025-07-05 18:07:01.407 [main] pages.CheckoutPage::getCustomerAddress2::65 - Customer address2 text retrived is 'Farend avenue'.
+[INFO ] 2025-07-05 18:07:01.476 [main] pages.CheckoutPage::getCustomerCityStateZip::78 - Customer City State Zipcode text retrived is 'Shreveport AR 50576'.
+[INFO ] 2025-07-05 18:07:01.547 [main] pages.CheckoutPage::getCustomerCountry::91 - Customer country text retrived is 'United States'.
+[INFO ] 2025-07-05 18:07:01.619 [main] pages.CheckoutPage::getCustomerMobile::104 - Customer mobile number text retrived is '9999999999'.
+[INFO ] 2025-07-05 18:07:01.686 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 18:07:01.756 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Blue Top' is '1'.
+[INFO ] 2025-07-05 18:07:01.814 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 18:07:01.873 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 18:07:01.939 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Men Tshirt' is '1'.
+[INFO ] 2025-07-05 18:07:01.993 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 18:07:02.255 [main] pages.CheckoutPage::enterComment::118 - 'This is the sample comment on the checkoutpage.' entered in the comment text box.
+[INFO ] 2025-07-05 18:07:03.641 [main] pages.CheckoutPage::clickPlaceOrder::132 - Clicked on Place Order button.
+[INFO ] 2025-07-05 18:07:04.185 [main] pages.HomePage::enterNameOnCard::33 - 'John Doe' entered in the Name on card text box.
+[INFO ] 2025-07-05 18:07:04.358 [main] pages.HomePage::enterCardNumber::47 - '6452789545625468' entered in the Card number text box.
+[INFO ] 2025-07-05 18:07:04.517 [main] pages.HomePage::enterCvc::61 - '311' entered in the cvc text box.
+[INFO ] 2025-07-05 18:07:04.683 [main] pages.HomePage::enterExpiryMonth::75 - '05' entered in the Expiry Month text box.
+[INFO ] 2025-07-05 18:07:04.844 [main] pages.HomePage::enterExpiryYear::89 - '2026' entered in the Expiry Year text box.
+[INFO ] 2025-07-05 18:07:07.313 [main] pages.HomePage::clickPayAndConfirmOrder::103 - Clicked on the Pay And Confirm Order button.
+[INFO ] 2025-07-05 18:07:07.313 [main] pages.HomePage::clickPayAndConfirmOrder::104 - Navigating to Home page.
+[INFO ] 2025-07-05 18:07:07.361 [main] pages.PaymentDonePage::isConfirmedMessageVisible::25 - Order confirmed message is displayed on the Payment done page
+[INFO ] 2025-07-05 18:07:07.428 [main] pages.PaymentDonePage::getConfirmedMessageText::38 - Order confirmed message text retrived is 'Congratulations! Your order has been confirmed!'.
+[INFO ] 2025-07-05 18:07:08.657 [main] pages.NavigationBar::clickDeleteAccountLink::47 - Clicked on Delete Account Link.
+[INFO ] 2025-07-05 18:07:08.658 [main] pages.NavigationBar::clickDeleteAccountLink::49 - Navigating to Account deleted page.
+[INFO ] 2025-07-05 18:07:11.405 [main] pages.AccountDeletedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:07:11.406 [main] pages.AccountDeletedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:07:11.450 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:07:11.463 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRegisterWhileCheckout' test has passed **********
+[INFO ] 2025-07-05 18:07:11.924 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:07:13.722 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:07:13.820 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:07:13.823 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:07:13.826 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:07:13.848 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:07:13.848 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:07:13.848 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:07:19.088 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToRegisterBeforeCheckout' test has started **********
+[INFO ] 2025-07-05 18:07:19.088 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 15: Place Order: Register before Checkout'.
+[INFO ] 2025-07-05 18:07:19.139 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:07:20.521 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:07:20.743 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe05' entered in the signup name text box.
+[INFO ] 2025-07-05 18:07:20.967 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe05@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 18:07:22.088 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 18:07:22.229 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 18:07:22.650 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 18:07:23.231 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 18:07:23.562 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 18:07:23.773 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 18:07:23.903 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 18:07:24.064 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 18:07:24.334 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 18:07:24.580 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 18:07:24.834 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 18:07:25.043 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 18:07:25.243 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 18:07:25.383 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 18:07:25.665 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 18:07:25.815 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 18:07:25.917 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 18:07:26.047 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 18:07:28.440 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 18:07:28.440 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 18:07:28.491 [main] pages.AccountCreatedPage::isAccountCreatedLabelVisible::26 - Account created page header is displayed on the Account created page
+[INFO ] 2025-07-05 18:07:28.596 [main] pages.AccountCreatedPage::getAccountCreatedLabelText::39 - Account created header text retrived is 'ACCOUNT CREATED!'.
+[INFO ] 2025-07-05 18:07:31.201 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:07:31.202 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:07:31.235 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 18:07:31.277 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe05'.
+[INFO ] 2025-07-05 18:07:31.656 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 18:07:31.817 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 18:07:32.231 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:07:32.248 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 18:07:32.594 [main] pages.HomePage::addToCart::115 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:07:32.822 [main] pages.HomePage::addToCart::121 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:07:33.198 [main] pages.HomePage::addToCart::125 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:07:33.219 [main] pages.HomePage::addToCart::128 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 18:07:34.085 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 18:07:34.085 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 18:07:34.109 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 18:07:35.518 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 18:07:35.566 [main] pages.CheckoutPage::getCustomerName::26 - Customer name text retrived is 'Mr. John Doe'.
+[INFO ] 2025-07-05 18:07:35.702 [main] pages.CheckoutPage::getCustomerCompany::39 - Customer company name text retrived is 'The Lawrence Company'.
+[INFO ] 2025-07-05 18:07:35.847 [main] pages.CheckoutPage::getCustomerAddress1::52 - Customer address1 text retrived is '1379, Spring Hill Rd'.
+[INFO ] 2025-07-05 18:07:35.919 [main] pages.CheckoutPage::getCustomerAddress2::65 - Customer address2 text retrived is 'Farend avenue'.
+[INFO ] 2025-07-05 18:07:35.980 [main] pages.CheckoutPage::getCustomerCityStateZip::78 - Customer City State Zipcode text retrived is 'Shreveport AR 50576'.
+[INFO ] 2025-07-05 18:07:36.032 [main] pages.CheckoutPage::getCustomerCountry::91 - Customer country text retrived is 'United States'.
+[INFO ] 2025-07-05 18:07:36.107 [main] pages.CheckoutPage::getCustomerMobile::104 - Customer mobile number text retrived is '9999999999'.
+[INFO ] 2025-07-05 18:07:36.154 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 18:07:36.199 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Blue Top' is '1'.
+[INFO ] 2025-07-05 18:07:36.244 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 18:07:36.295 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 18:07:36.345 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Men Tshirt' is '1'.
+[INFO ] 2025-07-05 18:07:36.412 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 18:07:36.681 [main] pages.CheckoutPage::enterComment::118 - 'This is the sample comment on the checkoutpage.' entered in the comment text box.
+[INFO ] 2025-07-05 18:07:37.694 [main] pages.CheckoutPage::clickPlaceOrder::132 - Clicked on Place Order button.
+[INFO ] 2025-07-05 18:07:38.023 [main] pages.HomePage::enterNameOnCard::33 - 'John Doe' entered in the Name on card text box.
+[INFO ] 2025-07-05 18:07:38.175 [main] pages.HomePage::enterCardNumber::47 - '6452789545625468' entered in the Card number text box.
+[INFO ] 2025-07-05 18:07:38.327 [main] pages.HomePage::enterCvc::61 - '311' entered in the cvc text box.
+[INFO ] 2025-07-05 18:07:38.529 [main] pages.HomePage::enterExpiryMonth::75 - '05' entered in the Expiry Month text box.
+[INFO ] 2025-07-05 18:07:38.669 [main] pages.HomePage::enterExpiryYear::89 - '2026' entered in the Expiry Year text box.
+[INFO ] 2025-07-05 18:07:38.831 [main] pages.HomePage::clickPayAndConfirmOrder::103 - Clicked on the Pay And Confirm Order button.
+[INFO ] 2025-07-05 18:07:38.831 [main] pages.HomePage::clickPayAndConfirmOrder::104 - Navigating to Home page.
+[INFO ] 2025-07-05 18:07:41.184 [main] pages.PaymentDonePage::isConfirmedMessageVisible::25 - Order confirmed message is displayed on the Payment done page
+[INFO ] 2025-07-05 18:07:41.228 [main] pages.PaymentDonePage::getConfirmedMessageText::38 - Order confirmed message text retrived is 'Congratulations! Your order has been confirmed!'.
+[INFO ] 2025-07-05 18:07:42.395 [main] pages.NavigationBar::clickDeleteAccountLink::47 - Clicked on Delete Account Link.
+[INFO ] 2025-07-05 18:07:42.396 [main] pages.NavigationBar::clickDeleteAccountLink::49 - Navigating to Account deleted page.
+[INFO ] 2025-07-05 18:07:43.747 [main] pages.AccountDeletedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:07:43.747 [main] pages.AccountDeletedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:07:43.792 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:07:43.801 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToRegisterBeforeCheckout' test has passed **********
+[INFO ] 2025-07-05 18:07:44.133 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:07:46.933 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:07:47.067 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:07:47.070 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:07:47.081 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:07:47.104 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:07:47.104 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:07:47.108 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:07:50.686 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToLoginBeforeCheckout' test has started **********
+[INFO ] 2025-07-05 18:07:50.686 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 16: Place Order: Login before Checkout'.
+[INFO ] 2025-07-05 18:07:50.742 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:07:51.963 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:07:52.393 [main] pages.SignupLoginPage::enterSignupName::171 - 'johndoe06' entered in the signup name text box.
+[INFO ] 2025-07-05 18:07:52.536 [main] pages.SignupLoginPage::enterSignupEmail::185 - 'johndoe06@email.com' entered in the signup email text box.
+[INFO ] 2025-07-05 18:07:52.685 [main] pages.SignupLoginPage::clickSignup::199 - Clicked on the Signup button.
+[INFO ] 2025-07-05 18:07:54.828 [main] pages.SignupPage::selectTitle::48 - Clicked on the title: Mr
+[INFO ] 2025-07-05 18:07:56.917 [main] pages.SignupPage::enterPassword::62 - 'johndoe' entered in the password text box.
+[INFO ] 2025-07-05 18:07:57.125 [main] pages.SignupPage::selectDay::77 - '15' selected in the day dropdown list box.
+[INFO ] 2025-07-05 18:07:57.370 [main] pages.SignupPage::selectMonth::92 - 'August' selected in the month dropdown list box.
+[INFO ] 2025-07-05 18:07:57.520 [main] pages.SignupPage::selectYear::107 - '1990' selected in the year dropdown list box.
+[INFO ] 2025-07-05 18:07:57.804 [main] pages.SignupPage::selectNewsLetter::122 - NewsLetter checkbox selected.
+[INFO ] 2025-07-05 18:07:58.868 [main] pages.SignupPage::selectSpecialOffer::141 - Speical offer checkbox selected.
+[INFO ] 2025-07-05 18:08:00.570 [main] pages.SignupPage::enterFirstName::159 - 'John' entered in the firstName text box.
+[INFO ] 2025-07-05 18:08:00.898 [main] pages.SignupPage::enterLastName::173 - 'Doe' entered in the lastName text box.
+[INFO ] 2025-07-05 18:08:01.217 [main] pages.SignupPage::enterCompany::187 - 'The Lawrence Company' entered in the company text box.
+[INFO ] 2025-07-05 18:08:01.605 [main] pages.SignupPage::enterAddress1::201 - '1379, Spring Hill Rd' entered in the address1 text box.
+[INFO ] 2025-07-05 18:08:02.356 [main] pages.SignupPage::enterAddress2::215 - 'Farend avenue' entered in the address2 text box.
+[INFO ] 2025-07-05 18:08:02.604 [main] pages.SignupPage::selectCountry::230 - 'United States' selected in the country dropdown list box.
+[INFO ] 2025-07-05 18:08:03.161 [main] pages.SignupPage::enterState::244 - 'AR' entered in the state text box.
+[INFO ] 2025-07-05 18:08:03.384 [main] pages.SignupPage::enterCity::258 - 'Shreveport' entered in the city text box.
+[INFO ] 2025-07-05 18:08:03.648 [main] pages.SignupPage::enterZipcode::272 - '50576' entered in the zipcode text box.
+[INFO ] 2025-07-05 18:08:04.019 [main] pages.SignupPage::enterMobile::286 - '9999999999' entered in the mobile number text box.
+[INFO ] 2025-07-05 18:08:06.529 [main] pages.SignupPage::clickCreateAccount::300 - Clicked on the Create Account button.
+[INFO ] 2025-07-05 18:08:06.529 [main] pages.SignupPage::clickCreateAccount::302 - Navigating to Account created page.
+[INFO ] 2025-07-05 18:08:13.556 [main] pages.AccountCreatedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:08:13.557 [main] pages.AccountCreatedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:08:15.952 [main] pages.NavigationBar::clickLogoutLink::108 - Clicked on Logout Link.
+[INFO ] 2025-07-05 18:08:15.952 [main] pages.NavigationBar::clickLogoutLink::110 - Navigating to Signup / Login page.
+[INFO ] 2025-07-05 18:08:19.801 [main] pages.SignupLoginPage::clickHomeLink::239 - Clicked on Home Link.
+[INFO ] 2025-07-05 18:08:20.023 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:08:22.913 [main] pages.NavigationBar::clickSignupLoginLink::33 - Clicked on Signup / Login Link.
+[INFO ] 2025-07-05 18:08:23.100 [main] pages.SignupLoginPage::enterLoginEmail::64 - 'johndoe06@email.com' entered in the login email text box.
+[INFO ] 2025-07-05 18:08:23.385 [main] pages.SignupLoginPage::enterLoginPassword::78 - 'johndoe' entered in the login password text box.
+[INFO ] 2025-07-05 18:08:28.535 [main] pages.SignupLoginPage::clickLogin::92 - Clicked on the Login button.
+[INFO ] 2025-07-05 18:08:28.638 [main] pages.NavigationBar::isLoggedInAsUsernameVisible::78 - 'Logged in as username' label is displayed on home page.
+[INFO ] 2025-07-05 18:08:29.071 [main] pages.NavigationBar::getLoggedInAsUsernameText::92 - 'Logged in as username' text retrived is 'Logged in as johndoe06'.
+[INFO ] 2025-07-05 18:08:31.548 [main] pages.NavigationBar::clickProductsLink::140 - Clicked on Products Link.
+[INFO ] 2025-07-05 18:08:33.752 [main] pages.ProductsPage::addToCart::108 - Hovering over Product : 'Blue Top'.
+[INFO ] 2025-07-05 18:08:35.005 [main] pages.ProductsPage::addToCart::114 - Clicked on Add to cart on product : 'Blue Top'.
+[INFO ] 2025-07-05 18:08:35.623 [main] pages.ProductsPage::addToCart::117 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:08:35.735 [main] pages.ProductsPage::addToCart::120 - Products added to cart : '[Blue Top]'.
+[INFO ] 2025-07-05 18:08:36.140 [main] pages.ProductsPage::addToCart::108 - Hovering over Product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:08:37.008 [main] pages.ProductsPage::addToCart::114 - Clicked on Add to cart on product : 'Men Tshirt'.
+[INFO ] 2025-07-05 18:08:37.388 [main] pages.ProductsPage::addToCart::117 - Clicked on continue shopping link.
+[INFO ] 2025-07-05 18:08:37.420 [main] pages.ProductsPage::addToCart::120 - Products added to cart : '[Blue Top, Men Tshirt]'.
+[INFO ] 2025-07-05 18:08:39.388 [main] pages.ProductsPage::clickCartLink::161 - Clicked on the Cart link.
+[INFO ] 2025-07-05 18:08:39.486 [main] pages.CartPage::isCartPageVisible::45 - Cart page is visible.
+[INFO ] 2025-07-05 18:08:43.696 [main] pages.CartPage::clickProceedToCheckout::138 - Clicked on Proceed To Checkout button.
+[INFO ] 2025-07-05 18:08:43.998 [main] pages.CheckoutPage::getCustomerName::26 - Customer name text retrived is 'Mr. John Doe'.
+[INFO ] 2025-07-05 18:08:44.089 [main] pages.CheckoutPage::getCustomerCompany::39 - Customer company name text retrived is 'The Lawrence Company'.
+[INFO ] 2025-07-05 18:08:44.169 [main] pages.CheckoutPage::getCustomerAddress1::52 - Customer address1 text retrived is '1379, Spring Hill Rd'.
+[INFO ] 2025-07-05 18:08:44.253 [main] pages.CheckoutPage::getCustomerAddress2::65 - Customer address2 text retrived is 'Farend avenue'.
+[INFO ] 2025-07-05 18:08:44.353 [main] pages.CheckoutPage::getCustomerCityStateZip::78 - Customer City State Zipcode text retrived is 'Shreveport AR 50576'.
+[INFO ] 2025-07-05 18:08:44.488 [main] pages.CheckoutPage::getCustomerCountry::91 - Customer country text retrived is 'United States'.
+[INFO ] 2025-07-05 18:08:44.573 [main] pages.CheckoutPage::getCustomerMobile::104 - Customer mobile number text retrived is '9999999999'.
+[INFO ] 2025-07-05 18:08:44.684 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 18:08:44.790 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Blue Top' is '1'.
+[INFO ] 2025-07-05 18:08:44.884 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Blue Top' is 'Rs. 500'.
+[INFO ] 2025-07-05 18:08:44.955 [main] pages.CheckoutPage::getProductPrice::147 - Price of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 18:08:45.022 [main] pages.CheckoutPage::getProductQuantity::162 - Quantity of 'Men Tshirt' is '1'.
+[INFO ] 2025-07-05 18:08:45.094 [main] pages.CheckoutPage::getProductTotalAmount::177 - Total amount of 'Men Tshirt' is 'Rs. 400'.
+[INFO ] 2025-07-05 18:08:45.402 [main] pages.CheckoutPage::enterComment::118 - 'This is the sample comment on the checkoutpage.' entered in the comment text box.
+[INFO ] 2025-07-05 18:08:47.067 [main] pages.CheckoutPage::clickPlaceOrder::132 - Clicked on Place Order button.
+[INFO ] 2025-07-05 18:08:47.505 [main] pages.HomePage::enterNameOnCard::33 - 'John Doe' entered in the Name on card text box.
+[INFO ] 2025-07-05 18:08:47.986 [main] pages.HomePage::enterCardNumber::47 - '6452789545625468' entered in the Card number text box.
+[INFO ] 2025-07-05 18:08:48.322 [main] pages.HomePage::enterCvc::61 - '311' entered in the cvc text box.
+[INFO ] 2025-07-05 18:08:48.614 [main] pages.HomePage::enterExpiryMonth::75 - '05' entered in the Expiry Month text box.
+[INFO ] 2025-07-05 18:08:48.857 [main] pages.HomePage::enterExpiryYear::89 - '2026' entered in the Expiry Year text box.
+[INFO ] 2025-07-05 18:08:51.538 [main] pages.HomePage::clickPayAndConfirmOrder::103 - Clicked on the Pay And Confirm Order button.
+[INFO ] 2025-07-05 18:08:51.538 [main] pages.HomePage::clickPayAndConfirmOrder::104 - Navigating to Home page.
+[INFO ] 2025-07-05 18:08:51.568 [main] pages.PaymentDonePage::isConfirmedMessageVisible::25 - Order confirmed message is displayed on the Payment done page
+[INFO ] 2025-07-05 18:08:51.602 [main] pages.PaymentDonePage::getConfirmedMessageText::38 - Order confirmed message text retrived is 'Congratulations! Your order has been confirmed!'.
+[INFO ] 2025-07-05 18:08:52.934 [main] pages.NavigationBar::clickDeleteAccountLink::47 - Clicked on Delete Account Link.
+[INFO ] 2025-07-05 18:08:52.934 [main] pages.NavigationBar::clickDeleteAccountLink::49 - Navigating to Account deleted page.
+[INFO ] 2025-07-05 18:08:54.652 [main] pages.AccountDeletedPage::clickContinue::53 - Clicked on the Continue button.
+[INFO ] 2025-07-05 18:08:54.653 [main] pages.AccountDeletedPage::clickContinue::55 - Navigating to Home page.
+[INFO ] 2025-07-05 18:08:54.734 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:08:54.801 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToLoginBeforeCheckout' test has passed **********
+[INFO ] 2025-07-05 18:08:55.225 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:08:57.611 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:08:57.735 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:08:57.737 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:08:57.739 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:08:57.774 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:08:57.774 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:08:57.774 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:09:03.158 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifySubscriptionInCartPage' test has started **********
+[INFO ] 2025-07-05 18:09:03.161 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 11: Verify Subscription in Cart page'.
+[INFO ] 2025-07-05 18:09:03.286 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:09:04.972 [main] pages.HomePage::clickCartLink::60 - Clicked on Cart Link.
+[INFO ] 2025-07-05 18:09:04.972 [main] pages.HomePage::clickCartLink::62 - Navigating to Cart page.
+[INFO ] 2025-07-05 18:09:05.051 [main] pages.CartPage::scrollToFooter::58 - Scrolling to footer section.
+[INFO ] 2025-07-05 18:09:05.180 [main] pages.ApplicationFooter::isSubscriptionLabelDisplayed::28 - 'Subscription' label is displayed on home page.
+[INFO ] 2025-07-05 18:09:05.331 [main] pages.ApplicationFooter::getSubscriptionText::42 - Subscription label text retrived is 'SUBSCRIPTION'.
+[INFO ] 2025-07-05 18:09:05.589 [main] pages.ApplicationFooter::enterSubscriptionEmail::71 - 'johndoe01@email.com' entered in the subscription email text box.
+[INFO ] 2025-07-05 18:09:05.796 [main] pages.ApplicationFooter::clickArrowButton::57 - Clicked on Subscribe button.
+[INFO ] 2025-07-05 18:09:05.834 [main] pages.ApplicationFooter::isSubscriptionSuccessLabelDisplayed::86 - Subscription success label is displayed on home page.
+[INFO ] 2025-07-05 18:09:05.886 [main] pages.ApplicationFooter::getSubscriptionSuccessText::100 - Subscription success message text retrived is 'You have been successfully subscribed!'.
+[INFO ] 2025-07-05 18:09:05.914 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifySubscriptionInCartPage' test has passed **********
+[INFO ] 2025-07-05 18:09:06.226 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:09:08.217 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:09:08.603 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:09:08.616 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:09:08.619 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:09:08.667 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:09:08.667 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:09:08.668 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:09:09.854 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'verifySubscriptionInHomePage' test has started **********
+[INFO ] 2025-07-05 18:09:09.854 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 10: Verify Subscription in home page'.
+[INFO ] 2025-07-05 18:09:12.002 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:09:12.068 [main] pages.HomePage::scrollToFooter::143 - Scrolling to footer section.
+[INFO ] 2025-07-05 18:09:12.149 [main] pages.ApplicationFooter::isSubscriptionLabelDisplayed::28 - 'Subscription' label is displayed on home page.
+[INFO ] 2025-07-05 18:09:12.205 [main] pages.ApplicationFooter::getSubscriptionText::42 - Subscription label text retrived is 'SUBSCRIPTION'.
+[INFO ] 2025-07-05 18:09:12.505 [main] pages.ApplicationFooter::enterSubscriptionEmail::71 - 'johndoe01@email.com' entered in the subscription email text box.
+[INFO ] 2025-07-05 18:09:12.702 [main] pages.ApplicationFooter::clickArrowButton::57 - Clicked on Subscribe button.
+[INFO ] 2025-07-05 18:09:12.774 [main] pages.ApplicationFooter::isSubscriptionSuccessLabelDisplayed::86 - Subscription success label is displayed on home page.
+[INFO ] 2025-07-05 18:09:12.823 [main] pages.ApplicationFooter::getSubscriptionSuccessText::100 - Subscription success message text retrived is 'You have been successfully subscribed!'.
+[INFO ] 2025-07-05 18:09:12.843 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'verifySubscriptionInHomePage' test has passed **********
+[INFO ] 2025-07-05 18:09:13.049 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:09:14.871 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:09:14.988 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:09:14.996 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:09:14.999 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:09:15.015 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:09:15.015 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:09:15.015 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:09:18.151 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testToVerifyTestCasesPage' test has started **********
+[INFO ] 2025-07-05 18:09:18.151 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 7: Verify Test Cases Page'.
+[INFO ] 2025-07-05 18:09:20.840 [main] pages.NavigationBar::clickTestCasesLink::64 - Clicked on Test cases Link.
+[INFO ] 2025-07-05 18:09:20.875 [main] pages.TestCasesPage::isOnTestCasesPage::25 - Test cases is visible.
+[INFO ] 2025-07-05 18:09:20.886 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testToVerifyTestCasesPage' test has passed **********
+[INFO ] 2025-07-05 18:09:21.100 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:09:22.468 [main] factory.DriverFactory::intializeDriver::49 - Edge browser launched.
+[INFO ] 2025-07-05 18:09:22.530 [main] factory.DriverFactory::intializeDriver::62 - Browser maximised.
+[INFO ] 2025-07-05 18:09:22.533 [main] factory.DriverFactory::intializeDriver::64 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-05 18:09:22.540 [main] factory.DriverFactory::intializeDriver::66 - Page load timeout set to 10 seconds.
+[INFO ] 2025-07-05 18:09:22.551 [main] factory.DriverFactory::intializeDriver::68 - All browser cookies deleted.
+[INFO ] 2025-07-05 18:09:22.551 [main] factory.DriverFactory::intializeDriver::69 - WebDriver initialization complete.
+[INFO ] 2025-07-05 18:09:22.551 [main] base.BaseTest::initializeBrowser::22 - Navigating to url: 'https://automationexercise.com/'
+[INFO ] 2025-07-05 18:09:25.480 [main] listeners.ReportListeners::onTestStart::79 - ********** Execution of 'testContactUsForm' test has started **********
+[INFO ] 2025-07-05 18:09:25.480 [main] listeners.ReportListeners::onTestStart::80 - Test description -'Test Case 6: Contact Us Form'.
+[INFO ] 2025-07-05 18:09:25.526 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:09:27.172 [main] pages.NavigationBar::clickContactUsLink::124 - Clicked on Contact us Link.
+[INFO ] 2025-07-05 18:09:27.173 [main] pages.NavigationBar::clickContactUsLink::126 - Navigating to Contact us page.
+[INFO ] 2025-07-05 18:09:27.207 [main] pages.ContactUsPage::isGetInTouchLabelVisible::118 - Contact us form header is displayed on the Contact us page
+[INFO ] 2025-07-05 18:09:27.249 [main] pages.ContactUsPage::getGetInTouchText::131 - Contact us form header text retrived is 'GET IN TOUCH'.
+[INFO ] 2025-07-05 18:09:27.587 [main] pages.ContactUsPage::enterName::35 - 'john Doe' entered in the name text box.
+[INFO ] 2025-07-05 18:09:27.693 [main] pages.ContactUsPage::enterEmail::49 - 'jackdoe@email.com' entered in the email text box.
+[INFO ] 2025-07-05 18:09:27.815 [main] pages.ContactUsPage::enterSubject::63 - 'This is the sample Subject.' entered in the subject text box.
+[INFO ] 2025-07-05 18:09:27.937 [main] pages.ContactUsPage::enterMessage::77 - 'This is the sample message body' entered in the Message text box.
+[INFO ] 2025-07-05 18:09:28.004 [main] pages.ContactUsPage::enterFilePath::91 - 'C:\Software_Testing\Automation_Testing\github-projects\hybrid-selenium-automation-framework-automationexercise.com\eclipse-workspace\hybrid-selenium-automation-framework-automationexercise.com\src\test\resources\testData\Sample.txt' entered in the choose file text box.
+[INFO ] 2025-07-05 18:09:28.139 [main] pages.ContactUsPage::clickSubmit::105 - Clicked on the Submit button.
+[INFO ] 2025-07-05 18:09:28.140 [main] base.BasePage::getAlert::40 - Switching to Alert popup.
+[INFO ] 2025-07-05 18:09:28.160 [main] base.BasePage::acceptAlert::53 - Clicked on 'Ok' on Alert popup.
+[INFO ] 2025-07-05 18:09:28.203 [main] pages.ContactUsPage::isSuccessMessageVisible::163 - Success message is displayed on the Contact us page
+[INFO ] 2025-07-05 18:09:28.247 [main] pages.ContactUsPage::getSuccessMessageText::176 - Success message text on Contact us page retrived is 'Success! Your details have been submitted successfully.'.
+[INFO ] 2025-07-05 18:09:30.275 [main] pages.ContactUsPage::clickHome::150 - Clicked on the Home button.
+[INFO ] 2025-07-05 18:09:30.314 [main] pages.HomePage::isHomePageVisible::46 - Home page is visible.
+[INFO ] 2025-07-05 18:09:30.321 [main] listeners.ReportListeners::onTestSuccess::85 - ********** Execution of 'testContactUsForm' test has passed **********
+[INFO ] 2025-07-05 18:09:30.595 [main] base.BaseTest::closeBrowser::29 - 'Edge' browser closed successfully.
+[INFO ] 2025-07-05 18:09:31.172 [main] listeners.ReportListeners::onFinish::44 - ExtentReport generated : C:\Software_Testing\Automation_Testing\github-projects\hybrid-selenium-automation-framework-automationexercise.com\eclipse-workspace\hybrid-selenium-automation-framework-automationexercise.com\reports\ExecutionReport.html
+[INFO ] 2025-07-05 18:09:32.339 [main] listeners.ReportListeners::onFinish::47 - Extent Report opened on the default browser.
