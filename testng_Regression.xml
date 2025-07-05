@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AE automation Suite">
+	<listeners>
+		<listener class-name="com.ae.listeners.ReportListeners"></listener>
+		<listener class-name="com.ae.listeners.AnnotationTransformer"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+<!--		<groups>
+			<run>
+				<include name="Sanity"> </include>
+			</run>
+		</groups>-->
+		<classes>
+			<class name="com.ae.tests.RegisterTest" />
+			<class name="com.ae.tests.LoginTest" />
+			<class name="com.ae.tests.LogoutTest" />
+			<class name="com.ae.tests.ProductsPageTest" />
+			<class name="com.ae.tests.SearchTest" />
+			<class name="com.ae.tests.CartPageTest" />
+			<class name="com.ae.tests.CheckoutTest" />
+			<class name="com.ae.tests.SubscriptionTest" />
+			<class name="com.ae.tests.TestCasesPageTest" />
+			<class name="com.ae.tests.ContactUsTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+AE automation Suite -->

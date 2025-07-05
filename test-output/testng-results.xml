@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="16" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-05T11:29:11 IST" name="AE automation Suite" finished-at="2025-07-05T11:29:34 IST" duration-ms="22996">
+    <groups>
+      <group name="Sanity">
+        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+      </group> <!-- Regression -->
+      <group name="Login">
+        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2025-07-05T11:29:11 IST" name="Test" finished-at="2025-07-05T11:29:34 IST" duration-ms="22996">
+      <class name="com.ae.tests.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:11 IST" name="initializeBrowser" finished-at="2025-07-05T11:29:16 IST" duration-ms="5199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:16 IST" name="verifyLoginWithCorrectEmailAndPassword" description="Test Case 2: Login User with correct email and password" finished-at="2025-07-05T11:29:23 IST" duration-ms="6480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithCorrectEmailAndPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:23 IST" name="closeBrowser" finished-at="2025-07-05T11:29:23 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:23 IST" name="initializeBrowser" finished-at="2025-07-05T11:29:29 IST" duration-ms="5567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:29 IST" name="verifyLoginWithIncorrectEmailAndPassword" description="Test Case 3: Login User with incorrect email and password" finished-at="2025-07-05T11:29:33 IST" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithIncorrectEmailAndPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:33 IST" name="closeBrowser" finished-at="2025-07-05T11:29:34 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- AE automation Suite -->
+</testng-results>
