@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  AE Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AE Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 05 20:00:07 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>270 seconds (270262 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ae.tests.CartPageTest.testToVerifyProductQuantityInCart()'><b>testToVerifyProductQuantityInCart</b><br>Test class: com.ae.tests.CartPageTest<br>Test method: Test to verify quantity of the product in the cart.</td>
+<td></td>
+<td>7</td>
+<td>com.ae.tests.CartPageTest@3dd1dc90</td></tr>
+<tr>
+<td title='com.ae.tests.CartPageTest.testToRemoveProductsFromCart()'><b>testToRemoveProductsFromCart</b><br>Test class: com.ae.tests.CartPageTest<br>Test method: Test Case 17: Remove Products From Cart.</td>
+<td></td>
+<td>16</td>
+<td>com.ae.tests.CartPageTest@3dd1dc90</td></tr>
+<tr>
+<td title='com.ae.tests.LogoutTest.testToLogoutUser()'><b>testToLogoutUser</b><br>Test class: com.ae.tests.LogoutTest<br>Test method: Test Case 4: Logout User</td>
+<td></td>
+<td>7</td>
+<td>com.ae.tests.LogoutTest@6f0b0a5e</td></tr>
+<tr>
+<td title='com.ae.tests.TestCasesPageTest.testToVerifyTestCasesPage()'><b>testToVerifyTestCasesPage</b><br>Test class: com.ae.tests.TestCasesPageTest<br>Test method: Test Case 7: Verify Test Cases Page</td>
+<td></td>
+<td>1</td>
+<td>com.ae.tests.TestCasesPageTest@1a7288a3</td></tr>
+<tr>
+<td title='com.ae.tests.SubscriptionTest.verifySubscriptionInHomePage()'><b>verifySubscriptionInHomePage</b><br>Test class: com.ae.tests.SubscriptionTest<br>Test method: Test Case 10: Verify Subscription in home page</td>
+<td></td>
+<td>1</td>
+<td>com.ae.tests.SubscriptionTest@478ee483</td></tr>
+<tr>
+<td title='com.ae.tests.RegisterTest.testToRegisterUserWithNewEmail()'><b>testToRegisterUserWithNewEmail</b><br>Test class: com.ae.tests.RegisterTest<br>Test method: Test Case 1: Register User</td>
+<td></td>
+<td>15</td>
+<td>com.ae.tests.RegisterTest@278bb07e</td></tr>
+<tr>
+<td title='com.ae.tests.ContactUsTest.testContactUsForm()'><b>testContactUsForm</b><br>Test class: com.ae.tests.ContactUsTest<br>Test method: Test Case 6: Contact Us Form</td>
+<td></td>
+<td>4</td>
+<td>com.ae.tests.ContactUsTest@2974f221</td></tr>
+<tr>
+<td title='com.ae.tests.LoginTest.verifyLoginWithCorrectEmailAndPassword()'><b>verifyLoginWithCorrectEmailAndPassword</b><br>Test class: com.ae.tests.LoginTest<br>Test method: Test Case 2: Login User with correct email and password</td>
+<td></td>
+<td>7</td>
+<td>com.ae.tests.LoginTest@3e7634b9</td></tr>
+<tr>
+<td title='com.ae.tests.CheckoutTest.testToRegisterBeforeCheckout()'><b>testToRegisterBeforeCheckout</b><br>Test class: com.ae.tests.CheckoutTest<br>Test method: Test Case 15: Place Order: Register before Checkout</td>
+<td></td>
+<td>24</td>
+<td>com.ae.tests.CheckoutTest@abf688e</td></tr>
+<tr>
+<td title='com.ae.tests.CheckoutTest.testToLoginBeforeCheckout()'><b>testToLoginBeforeCheckout</b><br>Test class: com.ae.tests.CheckoutTest<br>Test method: Test Case 16: Place Order: Login before Checkout</td>
+<td></td>
+<td>38</td>
+<td>com.ae.tests.CheckoutTest@abf688e</td></tr>
+<tr>
+<td title='com.ae.tests.RegisterTest.testToRegisterUserWithExistingEmail()'><b>testToRegisterUserWithExistingEmail</b><br>Test class: com.ae.tests.RegisterTest<br>Test method: Test Case 5: Register User with existing email.</td>
+<td></td>
+<td>3</td>
+<td>com.ae.tests.RegisterTest@278bb07e</td></tr>
+<tr>
+<td title='com.ae.tests.SearchTest.verifyProductsRelatedToSearchAreVisible()'><b>verifyProductsRelatedToSearchAreVisible</b><br>Test class: com.ae.tests.SearchTest<br>Test method: Test Case 9: Search Product</td>
+<td></td>
+<td>5</td>
+<td>com.ae.tests.SearchTest@320de594</td></tr>
+<tr>
+<td title='com.ae.tests.CheckoutTest.testToRegisterWhileCheckout()'><b>testToRegisterWhileCheckout</b><br>Test class: com.ae.tests.CheckoutTest<br>Test method: Test Case 14: Place Order: Register while Checkout.</td>
+<td></td>
+<td>28</td>
+<td>com.ae.tests.CheckoutTest@abf688e</td></tr>
+<tr>
+<td title='com.ae.tests.LoginTest.verifyLoginWithIncorrectEmailAndPassword()'><b>verifyLoginWithIncorrectEmailAndPassword</b><br>Test class: com.ae.tests.LoginTest<br>Test method: Test Case 3: Login User with incorrect email and password</td>
+<td></td>
+<td>5</td>
+<td>com.ae.tests.LoginTest@3e7634b9</td></tr>
+<tr>
+<td title='com.ae.tests.ProductsPageTest.verifyAllProductsAndProductDetailsPage()'><b>verifyAllProductsAndProductDetailsPage</b><br>Test class: com.ae.tests.ProductsPageTest<br>Test method: Test Case 8: Verify All Products and product detail page</td>
+<td></td>
+<td>4</td>
+<td>com.ae.tests.ProductsPageTest@6035b93b</td></tr>
+<tr>
+<td title='com.ae.tests.SubscriptionTest.verifySubscriptionInCartPage()'><b>verifySubscriptionInCartPage</b><br>Test class: com.ae.tests.SubscriptionTest<br>Test method: Test Case 11: Verify Subscription in Cart page</td>
+<td></td>
+<td>2</td>
+<td>com.ae.tests.SubscriptionTest@478ee483</td></tr>
+</table><p>
+</body>
+</html>

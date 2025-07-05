@@ -1,49 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="14" total="16" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-05T11:29:11 IST" name="AE automation Suite" finished-at="2025-07-05T11:29:34 IST" duration-ms="22996">
+  <suite started-at="2025-07-05T20:00:07 IST" name="AE automation Suite" finished-at="2025-07-05T20:04:38 IST" duration-ms="270262">
     <groups>
       <group name="Sanity">
-        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
-        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="CartPageTest.testToVerifyProductQuantityInCart()[pri:0, instance:com.ae.tests.CartPageTest@3dd1dc90]" name="testToVerifyProductQuantityInCart" class="com.ae.tests.CartPageTest"/>
+        <method signature="CheckoutTest.testToRegisterWhileCheckout()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" name="testToRegisterWhileCheckout" class="com.ae.tests.CheckoutTest"/>
+        <method signature="ContactUsTest.testContactUsForm()[pri:0, instance:com.ae.tests.ContactUsTest@2974f221]" name="testContactUsForm" class="com.ae.tests.ContactUsTest"/>
+        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@3e7634b9]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="LogoutTest.testToLogoutUser()[pri:0, instance:com.ae.tests.LogoutTest@6f0b0a5e]" name="testToLogoutUser" class="com.ae.tests.LogoutTest"/>
+        <method signature="ProductsPageTest.verifyAllProductsAndProductDetailsPage()[pri:0, instance:com.ae.tests.ProductsPageTest@6035b93b]" name="verifyAllProductsAndProductDetailsPage" class="com.ae.tests.ProductsPageTest"/>
+        <method signature="RegisterTest.testToRegisterUserWithNewEmail()[pri:0, instance:com.ae.tests.RegisterTest@278bb07e]" name="testToRegisterUserWithNewEmail" class="com.ae.tests.RegisterTest"/>
+        <method signature="SearchTest.verifyProductsRelatedToSearchAreVisible()[pri:0, instance:com.ae.tests.SearchTest@320de594]" name="verifyProductsRelatedToSearchAreVisible" class="com.ae.tests.SearchTest"/>
+        <method signature="CartPageTest.testToRemoveProductsFromCart()[pri:1, instance:com.ae.tests.CartPageTest@3dd1dc90]" name="testToRemoveProductsFromCart" class="com.ae.tests.CartPageTest"/>
+        <method signature="CheckoutTest.testToRegisterBeforeCheckout()[pri:1, instance:com.ae.tests.CheckoutTest@abf688e]" name="testToRegisterBeforeCheckout" class="com.ae.tests.CheckoutTest"/>
+        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@3e7634b9]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="CheckoutTest.testToLoginBeforeCheckout()[pri:2, instance:com.ae.tests.CheckoutTest@abf688e]" name="testToLoginBeforeCheckout" class="com.ae.tests.CheckoutTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
-        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="CartPageTest.testToVerifyProductQuantityInCart()[pri:0, instance:com.ae.tests.CartPageTest@3dd1dc90]" name="testToVerifyProductQuantityInCart" class="com.ae.tests.CartPageTest"/>
+        <method signature="CheckoutTest.testToRegisterWhileCheckout()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" name="testToRegisterWhileCheckout" class="com.ae.tests.CheckoutTest"/>
+        <method signature="ContactUsTest.testContactUsForm()[pri:0, instance:com.ae.tests.ContactUsTest@2974f221]" name="testContactUsForm" class="com.ae.tests.ContactUsTest"/>
+        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@3e7634b9]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="LogoutTest.testToLogoutUser()[pri:0, instance:com.ae.tests.LogoutTest@6f0b0a5e]" name="testToLogoutUser" class="com.ae.tests.LogoutTest"/>
+        <method signature="ProductsPageTest.verifyAllProductsAndProductDetailsPage()[pri:0, instance:com.ae.tests.ProductsPageTest@6035b93b]" name="verifyAllProductsAndProductDetailsPage" class="com.ae.tests.ProductsPageTest"/>
+        <method signature="RegisterTest.testToRegisterUserWithNewEmail()[pri:0, instance:com.ae.tests.RegisterTest@278bb07e]" name="testToRegisterUserWithNewEmail" class="com.ae.tests.RegisterTest"/>
+        <method signature="SearchTest.verifyProductsRelatedToSearchAreVisible()[pri:0, instance:com.ae.tests.SearchTest@320de594]" name="verifyProductsRelatedToSearchAreVisible" class="com.ae.tests.SearchTest"/>
+        <method signature="SubscriptionTest.verifySubscriptionInCartPage()[pri:0, instance:com.ae.tests.SubscriptionTest@478ee483]" name="verifySubscriptionInCartPage" class="com.ae.tests.SubscriptionTest"/>
+        <method signature="SubscriptionTest.verifySubscriptionInHomePage()[pri:0, instance:com.ae.tests.SubscriptionTest@478ee483]" name="verifySubscriptionInHomePage" class="com.ae.tests.SubscriptionTest"/>
+        <method signature="TestCasesPageTest.testToVerifyTestCasesPage()[pri:0, instance:com.ae.tests.TestCasesPageTest@1a7288a3]" name="testToVerifyTestCasesPage" class="com.ae.tests.TestCasesPageTest"/>
+        <method signature="CartPageTest.testToRemoveProductsFromCart()[pri:1, instance:com.ae.tests.CartPageTest@3dd1dc90]" name="testToRemoveProductsFromCart" class="com.ae.tests.CartPageTest"/>
+        <method signature="CheckoutTest.testToRegisterBeforeCheckout()[pri:1, instance:com.ae.tests.CheckoutTest@abf688e]" name="testToRegisterBeforeCheckout" class="com.ae.tests.CheckoutTest"/>
+        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@3e7634b9]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="RegisterTest.testToRegisterUserWithExistingEmail()[pri:1, instance:com.ae.tests.RegisterTest@278bb07e]" name="testToRegisterUserWithExistingEmail" class="com.ae.tests.RegisterTest"/>
+        <method signature="CheckoutTest.testToLoginBeforeCheckout()[pri:2, instance:com.ae.tests.CheckoutTest@abf688e]" name="testToLoginBeforeCheckout" class="com.ae.tests.CheckoutTest"/>
       </group> <!-- Regression -->
       <group name="Login">
-        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
-        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@abf688e]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@3e7634b9]" name="verifyLoginWithCorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@3e7634b9]" name="verifyLoginWithIncorrectEmailAndPassword" class="com.ae.tests.LoginTest"/>
       </group> <!-- Login -->
     </groups>
-    <test started-at="2025-07-05T11:29:11 IST" name="Test" finished-at="2025-07-05T11:29:34 IST" duration-ms="22996">
-      <class name="com.ae.tests.LoginTest">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:11 IST" name="initializeBrowser" finished-at="2025-07-05T11:29:16 IST" duration-ms="5199" status="PASS">
+    <test started-at="2025-07-05T20:00:07 IST" name="AE Test" finished-at="2025-07-05T20:04:38 IST" duration-ms="270262">
+      <class name="com.ae.tests.SubscriptionTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.SubscriptionTest@478ee483]" started-at="2025-07-05T20:04:05 IST" name="initializeBrowser" finished-at="2025-07-05T20:04:11 IST" duration-ms="5938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:16 IST" name="verifyLoginWithCorrectEmailAndPassword" description="Test Case 2: Login User with correct email and password" finished-at="2025-07-05T11:29:23 IST" duration-ms="6480" status="PASS">
+        <test-method signature="verifySubscriptionInCartPage()[pri:0, instance:com.ae.tests.SubscriptionTest@478ee483]" started-at="2025-07-05T20:04:11 IST" name="verifySubscriptionInCartPage" description="Test Case 11: Verify Subscription in Cart page" finished-at="2025-07-05T20:04:13 IST" duration-ms="2150" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithCorrectEmailAndPassword -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:23 IST" name="closeBrowser" finished-at="2025-07-05T11:29:23 IST" duration-ms="304" status="PASS">
+        </test-method> <!-- verifySubscriptionInCartPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.SubscriptionTest@478ee483]" started-at="2025-07-05T20:04:13 IST" name="closeBrowser" finished-at="2025-07-05T20:04:14 IST" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:23 IST" name="initializeBrowser" finished-at="2025-07-05T11:29:29 IST" duration-ms="5567" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.SubscriptionTest@478ee483]" started-at="2025-07-05T20:04:14 IST" name="initializeBrowser" finished-at="2025-07-05T20:04:19 IST" duration-ms="5278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:29 IST" name="verifyLoginWithIncorrectEmailAndPassword" description="Test Case 3: Login User with incorrect email and password" finished-at="2025-07-05T11:29:33 IST" duration-ms="4527" status="PASS">
+        <test-method signature="verifySubscriptionInHomePage()[pri:0, instance:com.ae.tests.SubscriptionTest@478ee483]" started-at="2025-07-05T20:04:19 IST" name="verifySubscriptionInHomePage" description="Test Case 10: Verify Subscription in home page" finished-at="2025-07-05T20:04:20 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscriptionInHomePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.SubscriptionTest@478ee483]" started-at="2025-07-05T20:04:20 IST" name="closeBrowser" finished-at="2025-07-05T20:04:20 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.SubscriptionTest -->
+      <class name="com.ae.tests.RegisterTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.RegisterTest@278bb07e]" started-at="2025-07-05T20:00:08 IST" name="initializeBrowser" finished-at="2025-07-05T20:00:16 IST" duration-ms="8040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToRegisterUserWithNewEmail()[pri:0, instance:com.ae.tests.RegisterTest@278bb07e]" started-at="2025-07-05T20:00:16 IST" name="testToRegisterUserWithNewEmail" description="Test Case 1: Register User" finished-at="2025-07-05T20:00:31 IST" duration-ms="15508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToRegisterUserWithNewEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.RegisterTest@278bb07e]" started-at="2025-07-05T20:00:31 IST" name="closeBrowser" finished-at="2025-07-05T20:00:32 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.RegisterTest@278bb07e]" started-at="2025-07-05T20:00:32 IST" name="initializeBrowser" finished-at="2025-07-05T20:00:38 IST" duration-ms="5706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToRegisterUserWithExistingEmail()[pri:1, instance:com.ae.tests.RegisterTest@278bb07e]" started-at="2025-07-05T20:00:38 IST" name="testToRegisterUserWithExistingEmail" description="Test Case 5: Register User with existing email." finished-at="2025-07-05T20:00:41 IST" duration-ms="3626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToRegisterUserWithExistingEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.RegisterTest@278bb07e]" started-at="2025-07-05T20:00:41 IST" name="closeBrowser" finished-at="2025-07-05T20:00:42 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.RegisterTest -->
+      <class name="com.ae.tests.TestCasesPageTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.TestCasesPageTest@1a7288a3]" started-at="2025-07-05T20:04:20 IST" name="initializeBrowser" finished-at="2025-07-05T20:04:26 IST" duration-ms="5260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToVerifyTestCasesPage()[pri:0, instance:com.ae.tests.TestCasesPageTest@1a7288a3]" started-at="2025-07-05T20:04:26 IST" name="testToVerifyTestCasesPage" description="Test Case 7: Verify Test Cases Page" finished-at="2025-07-05T20:04:27 IST" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyTestCasesPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.TestCasesPageTest@1a7288a3]" started-at="2025-07-05T20:04:27 IST" name="closeBrowser" finished-at="2025-07-05T20:04:28 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.TestCasesPageTest -->
+      <class name="com.ae.tests.CheckoutTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:02:15 IST" name="initializeBrowser" finished-at="2025-07-05T20:02:20 IST" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToRegisterWhileCheckout()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:02:20 IST" name="testToRegisterWhileCheckout" description="Test Case 14: Place Order: Register while Checkout." finished-at="2025-07-05T20:02:48 IST" duration-ms="28052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToRegisterWhileCheckout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:02:48 IST" name="closeBrowser" finished-at="2025-07-05T20:02:49 IST" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:02:49 IST" name="initializeBrowser" finished-at="2025-07-05T20:02:56 IST" duration-ms="6465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToRegisterBeforeCheckout()[pri:1, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:02:56 IST" name="testToRegisterBeforeCheckout" description="Test Case 15: Place Order: Register before Checkout" finished-at="2025-07-05T20:03:20 IST" duration-ms="24581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToRegisterBeforeCheckout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:03:20 IST" name="closeBrowser" finished-at="2025-07-05T20:03:21 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:03:21 IST" name="initializeBrowser" finished-at="2025-07-05T20:03:26 IST" duration-ms="5131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToLoginBeforeCheckout()[pri:2, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:03:26 IST" name="testToLoginBeforeCheckout" description="Test Case 16: Place Order: Login before Checkout" finished-at="2025-07-05T20:04:04 IST" duration-ms="38715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToLoginBeforeCheckout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.CheckoutTest@abf688e]" started-at="2025-07-05T20:04:04 IST" name="closeBrowser" finished-at="2025-07-05T20:04:05 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.CheckoutTest -->
+      <class name="com.ae.tests.CartPageTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.CartPageTest@3dd1dc90]" started-at="2025-07-05T20:01:39 IST" name="initializeBrowser" finished-at="2025-07-05T20:01:44 IST" duration-ms="5672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToVerifyProductQuantityInCart()[pri:0, instance:com.ae.tests.CartPageTest@3dd1dc90]" started-at="2025-07-05T20:01:44 IST" name="testToVerifyProductQuantityInCart" description="Test to verify quantity of the product in the cart." finished-at="2025-07-05T20:01:52 IST" duration-ms="7154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyProductQuantityInCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.CartPageTest@3dd1dc90]" started-at="2025-07-05T20:01:52 IST" name="closeBrowser" finished-at="2025-07-05T20:01:53 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.CartPageTest@3dd1dc90]" started-at="2025-07-05T20:01:53 IST" name="initializeBrowser" finished-at="2025-07-05T20:01:57 IST" duration-ms="4875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToRemoveProductsFromCart()[pri:1, instance:com.ae.tests.CartPageTest@3dd1dc90]" started-at="2025-07-05T20:01:57 IST" name="testToRemoveProductsFromCart" description="Test Case 17: Remove Products From Cart." finished-at="2025-07-05T20:02:14 IST" duration-ms="16877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToRemoveProductsFromCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.CartPageTest@3dd1dc90]" started-at="2025-07-05T20:02:14 IST" name="closeBrowser" finished-at="2025-07-05T20:02:15 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.CartPageTest -->
+      <class name="com.ae.tests.ProductsPageTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.ProductsPageTest@6035b93b]" started-at="2025-07-05T20:01:19 IST" name="initializeBrowser" finished-at="2025-07-05T20:01:24 IST" duration-ms="5022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAllProductsAndProductDetailsPage()[pri:0, instance:com.ae.tests.ProductsPageTest@6035b93b]" started-at="2025-07-05T20:01:24 IST" name="verifyAllProductsAndProductDetailsPage" description="Test Case 8: Verify All Products and product detail page" finished-at="2025-07-05T20:01:29 IST" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProductsAndProductDetailsPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.ProductsPageTest@6035b93b]" started-at="2025-07-05T20:01:29 IST" name="closeBrowser" finished-at="2025-07-05T20:01:30 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.ProductsPageTest -->
+      <class name="com.ae.tests.ContactUsTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.ContactUsTest@2974f221]" started-at="2025-07-05T20:04:28 IST" name="initializeBrowser" finished-at="2025-07-05T20:04:33 IST" duration-ms="5036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testContactUsForm()[pri:0, instance:com.ae.tests.ContactUsTest@2974f221]" started-at="2025-07-05T20:04:33 IST" name="testContactUsForm" description="Test Case 6: Contact Us Form" finished-at="2025-07-05T20:04:37 IST" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUsForm -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.ContactUsTest@2974f221]" started-at="2025-07-05T20:04:37 IST" name="closeBrowser" finished-at="2025-07-05T20:04:38 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.ContactUsTest -->
+      <class name="com.ae.tests.SearchTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.SearchTest@320de594]" started-at="2025-07-05T20:01:30 IST" name="initializeBrowser" finished-at="2025-07-05T20:01:33 IST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyProductsRelatedToSearchAreVisible()[pri:0, instance:com.ae.tests.SearchTest@320de594]" started-at="2025-07-05T20:01:33 IST" name="verifyProductsRelatedToSearchAreVisible" description="Test Case 9: Search Product" finished-at="2025-07-05T20:01:38 IST" duration-ms="5663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsRelatedToSearchAreVisible -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.SearchTest@320de594]" started-at="2025-07-05T20:01:38 IST" name="closeBrowser" finished-at="2025-07-05T20:01:39 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.SearchTest -->
+      <class name="com.ae.tests.LogoutTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.LogoutTest@6f0b0a5e]" started-at="2025-07-05T20:01:07 IST" name="initializeBrowser" finished-at="2025-07-05T20:01:12 IST" duration-ms="4809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="testToLogoutUser()[pri:0, instance:com.ae.tests.LogoutTest@6f0b0a5e]" started-at="2025-07-05T20:01:12 IST" name="testToLogoutUser" description="Test Case 4: Logout User" finished-at="2025-07-05T20:01:19 IST" duration-ms="7019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToLogoutUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.LogoutTest@6f0b0a5e]" started-at="2025-07-05T20:01:19 IST" name="closeBrowser" finished-at="2025-07-05T20:01:19 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ae.tests.LogoutTest -->
+      <class name="com.ae.tests.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.LoginTest@3e7634b9]" started-at="2025-07-05T20:00:42 IST" name="initializeBrowser" finished-at="2025-07-05T20:00:47 IST" duration-ms="5154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginWithCorrectEmailAndPassword()[pri:0, instance:com.ae.tests.LoginTest@3e7634b9]" started-at="2025-07-05T20:00:47 IST" name="verifyLoginWithCorrectEmailAndPassword" description="Test Case 2: Login User with correct email and password" finished-at="2025-07-05T20:00:55 IST" duration-ms="7974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithCorrectEmailAndPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.LoginTest@3e7634b9]" started-at="2025-07-05T20:00:55 IST" name="closeBrowser" finished-at="2025-07-05T20:00:55 IST" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.ae.tests.LoginTest@3e7634b9]" started-at="2025-07-05T20:00:55 IST" name="initializeBrowser" finished-at="2025-07-05T20:01:01 IST" duration-ms="5811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginWithIncorrectEmailAndPassword()[pri:1, instance:com.ae.tests.LoginTest@3e7634b9]" started-at="2025-07-05T20:01:01 IST" name="verifyLoginWithIncorrectEmailAndPassword" description="Test Case 3: Login User with incorrect email and password" finished-at="2025-07-05T20:01:07 IST" duration-ms="5621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithIncorrectEmailAndPassword -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.LoginTest@abf688e]" started-at="2025-07-05T11:29:33 IST" name="closeBrowser" finished-at="2025-07-05T11:29:34 IST" duration-ms="457" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ae.tests.LoginTest@3e7634b9]" started-at="2025-07-05T20:01:07 IST" name="closeBrowser" finished-at="2025-07-05T20:01:07 IST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.ae.tests.LoginTest -->
-    </test> <!-- Test -->
+    </test> <!-- AE Test -->
   </suite> <!-- AE automation Suite -->
 </testng-results>
