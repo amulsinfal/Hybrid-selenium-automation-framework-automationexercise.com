@@ -5,7 +5,7 @@
 <br><br>
 ## 📌 Project Overview
 This project demonstrates my automation testing skills using Selenium WebDriver with Java as the programming language and TestNG as the testing framework. The approach reflects real-world automation practices following a Page Object Model (POM) design pattern and a hybrid test structure for scalability and maintainability.  
-This repository contains a **Hybrid Selenium Automation Framework** designed to automate the e-commerce website [automationexercise.com](https://automationexercise.com). It is built with industry best practices in mind using:
+This repository contains a **Hybrid Selenium Automation Framework** designed to automate the e-commerce website [automationexercise.com](https://automationexercise.com). It is built using:
 
 - **Java**
 - **Selenium WebDriver**
@@ -38,7 +38,7 @@ This repository contains a **Hybrid Selenium Automation Framework** designed to 
 
 - **Hybrid Framework**: Combines POM, Data-Driven, and Modular frameworks
 - **Page Object Model**: Clean separation of page elements and logic
-- **Data-Driven Testing**: Uses Excel + TestNG `@DataProvider`
+- **Data-Driven Testing**: Reads data from JSON file
 - **Log4j2 Integration**: Captures test logs in both console and file
 - **ExtentReports**: Visual reports with screenshots on failures
 - **Jenkins CI/CD**: Integrated pipeline for automated builds and test runs
@@ -46,8 +46,7 @@ This repository contains a **Hybrid Selenium Automation Framework** designed to 
 ---
 
 ## 📜 Project Structure : 
-Following is the folder structure for this project : <br>
-  
+Following is the folder structure for this project : <br> <br>
 <img width="500" alt="" src="https://github.com/user-attachments/assets/5e0cea6f-46cf-41c3-a983-8a3a8e4beca4">
 
 ---
