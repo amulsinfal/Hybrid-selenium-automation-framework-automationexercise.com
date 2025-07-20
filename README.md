@@ -29,7 +29,7 @@ This repository contains a **Hybrid Selenium Automation Framework** designed to 
 | POM              | Design Pattern for Maintainability   |
 | Log4j2           | Logging Test Execution               |
 | ExtentReports    | HTML Test Reporting with Screenshots |
-| Jenkins          | Running the code Automation          |
+| Jenkins          | Running the code automatically       |
 | Eclipse          | IDE used for development             |
 
 ---
@@ -148,21 +148,22 @@ I’ve configured the project to run directly from my local machine using a Jenk
 - **Eclipse IDE**
 - **Internet connection**
 
+---
 
 ### 🧪 Cloning the repository:
 1. Clone [Hybrid-selenium-automation-framework-automationexercise.com](https://github.com/amulsinfal/Hybrid-selenium-automation-framework-automationexercise.com.git) project from Github<br> 
   ```
-    git clone https://github.com/amulsinfal/Hybrid-selenium-automation-framework-automationexercise.com.git
+  git clone https://github.com/amulsinfal/Hybrid-selenium-automation-framework-automationexercise.com.git
   ```
 2. Navigate to the cloned directory<br> 
   ```
-    cd Hybrid-selenium-automation-framework-automationexercise.com
+  cd Hybrid-selenium-automation-framework-automationexercise.com
   ```   
 3. Compile maven dependencies<br> 
   ```
-    $ mvn compile
+  $ mvn compile
   ```
 4. Run the following command
-     ```
-    $ mvn test
+  ```
+  $ mvn test
   ```
