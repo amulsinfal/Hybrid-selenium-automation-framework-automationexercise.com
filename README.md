@@ -127,7 +127,7 @@ Extent Report opened automatically on the default browser after the execution is
 ---
 
 ## ⚙️ Jenkins Integration
-I’ve integrated this framework with Jenkins to support automated test execution, both locally and through CI/CD pipelines.
+I’ve integrated this framework with Jenkins to support automated test execution locally.
 
 ✅ Running Locally in Jenkins (No GitHub Required)
 I’ve configured the project to run directly from my local machine using a Jenkins Maven Project. Jenkins picks up the project from my local workspace, runs tests using Maven.  <br>
