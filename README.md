@@ -29,7 +29,7 @@ This repository contains a **Hybrid Selenium Automation Framework** designed to 
 | POM              | Design Pattern for Maintainability   |
 | Log4j2           | Logging Test Execution               |
 | ExtentReports    | HTML Test Reporting with Screenshots |
-| Jenkins          | CI/CD Automation                     |
+| Jenkins          | Running the code Automation          |
 | Eclipse          | IDE used for development             |
 
 ---
@@ -41,7 +41,7 @@ This repository contains a **Hybrid Selenium Automation Framework** designed to 
 - **Data-Driven Testing**: Reads data from JSON file
 - **Log4j2 Integration**: Captures test logs in both console and file
 - **ExtentReports**: Visual reports with screenshots on failures
-- **Jenkins CI/CD**: Integrated pipeline for automated builds and test runs
+- **Jenkins CI/CD**: running the test runs locally.
 
 ---
 
